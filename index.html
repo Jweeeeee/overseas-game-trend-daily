@@ -32,20 +32,32 @@
   .rankline { font-size:12px; color:var(--sub); margin-top:auto; }
   .delta { color:var(--up); font-weight:700; }
   .new { color:var(--new); font-weight:700; }
+  .lang-switch { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .lang-switch button { background:var(--card2); color:var(--sub); border:0; padding:8px 14px; font-size:13px; cursor:pointer; }
+  .lang-switch button.active { background:var(--accent); color:#fff; font-weight:700; }
   .empty { padding:60px 20px; text-align:center; color:var(--sub); }
   footer { padding:24px; text-align:center; color:#666; font-size:12px; border-top:1px solid var(--line); }
+  .status { font-size:12px; color:var(--sub); }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <h1>海外游戏上升趋势 TOP20</h1>
-    <p>每日抓取 CrazyGames · Game Jolt · Newgrounds · Kongregate · Coolmath 榜单，按名次差分算出上升最快的新游 · 供海外手游策划创意输入</p>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div>
+        <h1 data-i18n="h1">海外游戏上升趋势 TOP20</h1>
+        <p data-i18n="subtitle">每日抓取 CrazyGames · Game Jolt · Newgrounds · Kongregate · Coolmath 榜单，按名次差分算出上升最快的新游 · 供海外手游策划创意输入</p>
+      </div>
+      <div class="lang-switch">
+        <button id="btnZh" class="active" type="button">中文</button>
+        <button id="btnEn" type="button">EN</button>
+      </div>
+    </div>
   </div>
 </header>
 <div class="wrap">
   <div class="toolbar">
-    <label for="daySel">选择日期：</label>
+    <label for="daySel" data-i18n="selectDate">选择日期：</label>
     <select id="daySel"></select>
     <span class="meta" id="meta"></span>
   </div>
@@ -58,47 +70,106 @@
 <script>
 const $ = s => document.querySelector(s);
 let DATA = null;
+let LANG = localStorage.getItem('trendLang') || 'zh';
+
+const UI = {
+  zh: {
+    h1: '海外游戏上升趋势 TOP20',
+    subtitle: '每日抓取 CrazyGames · Game Jolt · Newgrounds · Kongregate · Coolmath 榜单，按名次差分算出上升最快的新游 · 供海外手游策划创意输入',
+    selectDate: '选择日期：', demo: '【示例数据】', latest: '（最新）',
+    vs: '对比', risingGames: '款上升游戏', noRise: '本期榜单无上升项（两期快照间隔过短时属正常）。',
+    newTag: '新上榜', prevRank: '上期', curRank: '本期', loadFail: '数据加载失败：',
+    generatedAt: '数据生成时间：',
+  },
+  en: {
+    h1: 'Overseas Games · Fastest Rising TOP20',
+    subtitle: 'Daily crawl of CrazyGames · Game Jolt · Newgrounds · Kongregate · Coolmath charts; rank-differenced to surface the fastest climbers · for overseas mobile-game designers',
+    selectDate: 'Date:', demo: '[SAMPLE DATA]', latest: ' (latest)',
+    vs: 'vs', risingGames: 'rising games', noRise: 'No rising entries this period (normal when snapshots are close together).',
+    newTag: 'New', prevRank: 'Prev', curRank: 'Now', loadFail: 'Data load failed:',
+    generatedAt: 'Generated at:',
+  },
+};
+
 function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function t(){ return UI[LANG]; }
+function setLang(lang){
+  LANG = lang;
+  localStorage.setItem('trendLang', lang);
+  $('#btnZh').classList.toggle('active', lang==='zh');
+  $('#btnEn').classList.toggle('active', lang==='en');
+  document.documentElement.lang = lang==='zh' ? 'zh-CN' : 'en';
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t()[el.getAttribute('data-i18n')]; });
+  if (DATA) {
+    const sel = $('#daySel');
+    [...sel.options].forEach(o => {
+      const r = DATA.reports.find(x => x.date === o.value);
+      if (r) o.textContent = r.date + (r.demo ? ' '+t().demo : '') + (r === DATA.reports[0] ? t().latest : '');
+    });
+    render(sel.value);
+  }
+}
+
 function render(date) {
   if (!DATA) return;
+  const L = t();
   const rep = DATA.reports.find(r => r.date === date);
   if (!rep) return;
-  $('#meta').textContent = (rep.demo ? '【示例数据】' : '') + `对比 ${rep.from} → ${rep.date} · 共 ${rep.top.length} 款上升游戏`;
-  const grid = $('#grid'); grid.innerHTML = '';
+  $('#meta').textContent = (rep.demo ? L.demo : '') + ` ${L.vs} ${rep.from} → ${rep.date} · ${rep.top.length} ${L.risingGames}`;
+  const grid = $('#grid');
+  grid.innerHTML = '';
   const empty = $('#empty');
-  if (!rep.top.length) { empty.style.display='block'; empty.textContent='本期榜单无上升项（两期快照间隔过短时属正常）。'; return; }
+  if (!rep.top.length) {
+    empty.style.display = 'block';
+    empty.textContent = L.noRise;
+    return;
+  }
   empty.style.display = 'none';
   rep.top.forEach((g, i) => {
-    const card = document.createElement('div'); card.className = 'card';
+    const card = document.createElement('div');
+    card.className = 'card';
     const coverUrl = (g.cover || '').startsWith('//') ? 'https:' + g.cover : g.cover;
-    const img = coverUrl ? `<img class="thumb" src="${esc(coverUrl)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : '';
+    const img = coverUrl
+      ? `<img class="thumb" src="${esc(coverUrl)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      : '';
     const ph = `<div class="thumb-ph" style="${g.cover?'display:none':''}">🎮</div>`;
-    const before = g.isNew ? '<span class="new">新上榜</span>' : `上期 ${g.rankBefore}/${g.nBefore}`;
+    const before = g.isNew ? `<span class="new">${L.newTag}</span>` : `${L.prevRank} ${g.rankBefore}/${g.nBefore}`;
     const delta = g.isNew ? '' : ` · <span class="delta">+${g.delta.toFixed(3)}</span>`;
-    const desc = g.desc ? `<div class="desc">${esc(g.desc)}</div>` : '';
+    const showTitle = LANG==='zh' && g.titleZh ? g.titleZh : g.title;
+    const showDesc  = LANG==='zh' && g.descZh  ? g.descZh  : g.desc;
+    const desc = showDesc ? `<div class="desc">${esc(showDesc)}</div>` : '';
     card.innerHTML = `
       <div class="thumbwrap"><span class="rank">#${i+1}</span>${img}${ph}</div>
       <div class="cardbody">
-        <div class="title"><a href="${esc(g.detail)}" target="_blank" rel="noopener">${esc(g.title)}</a></div>
+        <div class="title"><a href="${esc(g.detail)}" target="_blank" rel="noopener">${esc(showTitle)}</a></div>
         <span class="site-tag">${esc(g.site)}</span>
         ${desc}
-        <div class="rankline">本期 ${g.rankNow}/${g.nNow} · ${before}${delta}</div>
+        <div class="rankline">${L.curRank} ${g.rankNow}/${g.nNow} · ${before}${delta}</div>
       </div>`;
     grid.appendChild(card);
   });
 }
+
+$('#btnZh').addEventListener('click', () => setLang('zh'));
+$('#btnEn').addEventListener('click', () => setLang('en'));
+
 fetch('data.json?t=' + Date.now()).then(r => r.json()).then(d => {
   DATA = d;
   const sel = $('#daySel');
   d.reports.forEach((r, i) => {
-    const o = document.createElement('option'); o.value = r.date;
-    o.textContent = r.date + (r.demo ? '（示例数据）' : '') + (i === 0 ? '（最新）' : '');
+    const o = document.createElement('option');
+    o.value = r.date;
+    o.textContent = r.date + (r.demo ? ' '+t().demo : '') + (i === 0 ? t().latest : '');
     sel.appendChild(o);
   });
-  $('#foot').innerHTML = `数据生成时间：${esc(d.generatedAt)} · ${esc(d.note)}`;
-  if (d.reports.length) { sel.value = d.reports[0].date; render(d.reports[0].date); }
+  $('#foot').textContent = `${t().generatedAt} ${d.generatedAt} · ${d.note}`;
+  setLang(LANG);
+  if (d.reports.length) sel.value = d.reports[0].date;
   sel.addEventListener('change', e => render(e.target.value));
-}).catch(e => { $('#empty').style.display='block'; $('#empty').textContent='数据加载失败：'+e.message; });
+}).catch(e => {
+  $('#empty').style.display = 'block';
+  $('#empty').textContent = t().loadFail + e.message;
+});
 </script>
 </body>
 </html>
