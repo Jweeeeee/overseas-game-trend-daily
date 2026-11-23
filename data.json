@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-11-22T14:27:51.036Z",
-  "sites": ["CrazyGames", "Coolmath Games", "Game Jolt", "Newgrounds", "Kongregate"],
+  "generatedAt": "2026-11-23T00:58:59.730Z",
+  "sites": [
+    "CrazyGames",
+    "Coolmath Games",
+    "Game Jolt",
+    "Newgrounds",
+    "Kongregate"
+  ],
   "note": "GamePix / itch.io 因 Cloudflare 403 未纳入；截图为站点实际提供的封面/图，有几张放几张。",
-  "reports": [{"date": "2026-11-23", "from": "2026-11-22", "demo": true, "siteStatus": [{"name": "CrazyGames", "before": 29, "now": 29}, {"name": "Coolmath Games", "before": 15, "now": 15}, {"name": "Game Jolt", "before": 108, "now": 108}, {"name": "Newgrounds", "before": 41, "now": 41}, {"name": "Kongregate", "before": 49, "now": 50}], "top": [{"site": "Kongregate", "siteKey": "kongregate", "id": "kongregate:__selftest_neon", "title": "Neon Drift", "detail": "https://www.kongregate.com/", "meta": "自测", "rankNow": 1, "nNow": 50, "rankBefore": null, "nBefore": 49, "delta": 1, "isNew": true, "cover": "", "desc": "Kongregate is a portal for free online games that features user-created content, chat, badges, and player achievements."}, {"site": "Game Jolt", "siteKey": "gamejolt", "id": "gamejolt:1019701", "title": "koffeecup Hoomanz!", "detail": "https://gamejolt.com/games/Hoomanz/1019701", "meta": "", "rankNow": 1, "nNow": 108, "rankBefore": 50, "nBefore": 108, "delta": 0.4579, "isNew": false, "cover": "https://m.gjcdn.net/game-thumbnail/500/1019701-tkxhpz2k-v4.webp", "desc": "🎮 https://store.steampowered.com/app/3156450/Hoomanz/ Hoomanz! is a stealth-adventure game packed with coziness and humour, featuring non-combat gameplay & family-friendly content. Play as Shoo,..."}, {"site": "CrazyGames", "siteKey": "crazygames", "id": "crazygames:the-waitress", "title": "The Waitress", "detail": "https://www.crazygames.com/game/the-waitress", "meta": "1709436 plays", "rankNow": 2, "nNow": 29, "rankBefore": 12, "nBefore": 29, "delta": 0.3571, "isNew": false, "cover": "https://imgs.crazygames.com/games/the-waitress/cover-1634570674724.png?metadata=none&quality=100&width=1200&height=630&fit=crop&resizer=covers", "desc": "The Waitress is a classic arcade game where you play as a waitress in a distinctly average cafe. Take orders from customers and do it fast to keep them happy!"}]}]
+  "reports": [
+    {
+      "date": "2026-11-23",
+      "from": "2026-11-22",
+      "demo": false,
+      "siteStatus": [
+        { "name": "CrazyGames", "before": 29, "now": 29 },
+        { "name": "Coolmath Games", "before": 15, "now": 15 },
+        { "name": "Game Jolt", "before": 108, "now": 72 },
+        { "name": "Newgrounds", "before": 41, "now": 40 },
+        { "name": "Kongregate", "before": 49, "now": 49 }
+      ],
+      "top": [
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1063749", "title": "Virtual Sealing", "detail": "https://www.newgrounds.com/portal/view/1063749", "meta": "", "rankNow": 1, "nNow": 40, "rankBefore": null, "nBefore": 41, "delta": 1, "isNew": true, "cover": "https://picon.ngfiles.com/1063000/flash_1063749_card_fallback.jpg?f1795354084", "desc": "Another small atari-style game for mobile" },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1059999", "title": "Elsewild", "detail": "https://www.newgrounds.com/portal/view/1059999", "meta": "", "rankNow": 26, "nNow": 40, "rankBefore": 29, "nBefore": 41, "delta": 0.059, "isNew": false, "cover": "https://picon.ngfiles.com/1059000/flash_1059999_card_fallback.jpg?f1793597209", "desc": "A massive open world survival adventure in an endless world." },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1062547", "title": "My Beautiful Son", "detail": "https://www.newgrounds.com/portal/view/1062547", "meta": "", "rankNow": 5, "nNow": 40, "rankBefore": 6, "nBefore": 41, "delta": 0.0224, "isNew": false, "cover": "https://picon.ngfiles.com/1062000/flash_1062547_card_fallback.jpg?f1794771443", "desc": "Collect food for your new found son in a dangerous forest" },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1060226", "title": "Prism Break", "detail": "https://www.newgrounds.com/portal/view/1060226", "meta": "", "rankNow": 6, "nNow": 40, "rankBefore": 7, "nBefore": 41, "delta": 0.0218, "isNew": false, "cover": "https://picon.ngfiles.com/1060000/flash_1060226_card_fallback.jpg?f1793634450", "desc": "Help light reach the gate in this monochromatic world." },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1059941", "title": "Slightly scary Adventure of Dummy-Garry", "detail": "https://www.newgrounds.com/portal/view/1059941", "meta": "", "rankNow": 24, "nNow": 40, "rankBefore": 25, "nBefore": 41, "delta": 0.0103, "isNew": false, "cover": "https://picon.ngfiles.com/1059000/flash_1059941_card_fallback.jpg?f1793497514", "desc": "Help Garry to solve puzzles with keyboard and mouse" },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1059618", "title": "The Nick Senny Ritual", "detail": "https://www.newgrounds.com/portal/view/1059618", "meta": "", "rankNow": 27, "nNow": 40, "rankBefore": 28, "nBefore": 41, "delta": 0.0083, "isNew": false, "cover": "https://picon.ngfiles.com/1059000/flash_1059618_card_fallback.jpg?f1793419223", "desc": "Fight the Nick Senemies" },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1059677", "title": "Waha's Cleaning Service of Terror", "detail": "https://www.newgrounds.com/portal/view/1059677", "meta": "", "rankNow": 31, "nNow": 40, "rankBefore": 32, "nBefore": 41, "delta": 0.0058, "isNew": false, "cover": "https://picon.ngfiles.com/1059000/flash_1059677_card_fallback.jpg?f1793441994", "desc": "It's just a little cleaning job. What could go wrong?" },
+        { "site": "Newgrounds", "siteKey": "newgrounds", "id": "newgrounds:1059293", "title": "Tenfold", "detail": "https://www.newgrounds.com/portal/view/1059293", "meta": "", "rankNow": 33, "nNow": 40, "rankBefore": 34, "nBefore": 41, "delta": 0.0045, "isNew": false, "cover": "https://picon.ngfiles.com/1059000/flash_1059293_card_fallback.jpg?f1793320203", "desc": "Collect and battle strange horiffic creatures in this RPG roguelike!" }
+      ]
+    }
+  ]
 }
