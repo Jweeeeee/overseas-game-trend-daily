@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海外手游创意渠道清单</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1e26; --card2:#222735; --fg:#e8eaed; --sub:#9aa0aa; --accent:#5b8cff; --star:#ffb648; --line:#2a3040; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; line-height:1.6; }
+  header { padding:28px 20px 18px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 6px; font-size:22px; }
+  header p { margin:0; color:var(--sub); font-size:13px; }
+  .wrap { max-width:1200px; margin:0 auto; padding:0 16px 60px; }
+  .topbar { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  .actions { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+  .navlink { color:var(--accent); text-decoration:none; font-size:13px; border:1px solid var(--line); border-radius:8px; padding:8px 12px; }
+  .navlink:hover { border-color:var(--accent); }
+  .lang-switch { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .lang-switch button { background:var(--card2); color:var(--sub); border:0; padding:8px 14px; font-size:13px; cursor:pointer; }
+  .lang-switch button.active { background:var(--accent); color:#fff; font-weight:700; }
+  .group { margin-top:28px; }
+  .group h2 { font-size:16px; margin:0 0 4px; display:flex; align-items:center; gap:8px; }
+  .group h2 .bar { width:4px; height:16px; background:var(--accent); border-radius:2px; display:inline-block; }
+  .group .g-desc { color:var(--sub); font-size:12.5px; margin:0 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; display:flex; flex-direction:column; gap:8px; transition:transform .15s,border-color .15s; }
+  .card:hover { transform:translateY(-3px); border-color:var(--accent); }
+  .card.star { border-color:rgba(255,182,72,.45); }
+  .cname { font-size:15px; font-weight:700; }
+  .badge { color:var(--star); font-size:13px; margin-right:4px; }
+  .tag { display:inline-block; font-size:11px; color:var(--sub); background:var(--card2); border:1px solid var(--line); padding:2px 8px; border-radius:12px; align-self:flex-start; }
+  .note { font-size:12.5px; color:var(--sub); line-height:1.55; }
+  .go { margin-top:auto; font-size:12px; color:var(--accent); text-decoration:none; word-break:break-all; }
+  .go:hover { text-decoration:underline; }
+  footer { padding:24px; text-align:center; color:#666; font-size:12px; border-top:1px solid var(--line); margin-top:40px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <div>
+      <h1 data-i18n="h1">海外手游创意渠道清单</h1>
+      <p data-i18n="subtitle">整理日期 2026-11-22 · 按用途分组，带 ⭐ 为重点渠道 · 备注为原始标签</p>
+    </div>
+    <div class="actions">
+      <a class="navlink" href="index.html" data-i18n="back">← 返回上升榜日报</a>
+      <div class="lang-switch">
+        <button id="btnZh" class="active" type="button">中文</button>
+        <button id="btnEn" type="button">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="wrap" id="groups"></div>
+<footer><span data-i18n="foot">仅收录指定渠道，备注为原始标签 · 点卡片底部网址可访问原站</span></footer>
+<script>
+const $ = s => document.querySelector(s);
+let LANG = localStorage.getItem('trendLang') || 'zh';
+
+const UI = {
+  zh: { h1:'海外手游创意渠道清单', subtitle:'整理日期 2026-11-22 · 按用途分组，带 ⭐ 为重点渠道 · 备注为原始标签', back:'← 返回上升榜日报',
+        g1:'一、有排行榜/筛选等信息聚焦渠道', g1d:'便于快速浏览热点信息',
+        g2:'二、无热点信息浏览方式，但游戏精品化程度很高', g2d:'适合平时稳定摄入',
+        g3:'三、其他', g3d:'艺术化 / 图库 / 资料检索', foot:'仅收录指定渠道，备注为原始标签 · 点卡片底部网址可访问原站' },
+  en: { h1:'Overseas Mobile-Game Idea Channels', subtitle:'Compiled 2026-11-22 · grouped by purpose, ⭐ marks key channels · notes are original labels', back:'← Back to Rising TOP20',
+        g1:'1. Channels with leaderboards / filters', g1d:'For quick hot-topic scanning',
+        g2:'2. No hot-list browse, but highly curated', g2d:'Great for steady, regular browsing',
+        g3:'3. Others', g3d:'Artsy / reference library / database', foot:'Only the specified channels are listed; notes are original labels · click the URL on each card to visit' },
+};
+
+const CHANNELS = [
+  { group:1, star:true, name:'CrazyGames', url:'https://www.crazygames.com/', zh:'全球头部，趋势榜单', en:'Top global platform, with trending charts' },
+  { group:1, star:false, name:'Y8 Games', url:'https://www.y8.com/', zh:'有中文界面，和CG作用近似的渠道源', en:'Has a Chinese UI; a source similar to CrazyGames' },
+  { group:1, star:false, name:'GamePix', url:'https://www.gamepix.com/', zh:'和CG作用近似的渠道源', en:'A source similar to CrazyGames' },
+  { group:1, star:false, name:'Coolmath Games', url:'https://www.coolmathgames.com/', zh:'侧重于青少年', en:'Skews toward teens' },
+  { group:1, star:false, name:'Armor Games', url:'https://armorgames.com/', zh:'网站老了点，游戏也都比较经典', en:'An older site with mostly classic games' },
+  { group:1, star:true, name:'itch.io', url:'https://itch.io/', zh:'独游主要渠道', en:'Main indie-game channel' },
+  { group:1, star:false, name:'Game Jolt', url:'https://gamejolt.com/', zh:'独游社区，但更偏向于PC', en:'Indie community, but more PC-oriented' },
+  { group:2, star:true, name:'Kongregate', url:'https://www.kongregate.com/', zh:'游戏精品化程度很高，适合平时摄入', en:'Highly curated, great for regular browsing' },
+  { group:2, star:false, name:'Poki', url:'https://poki.com/', zh:'无热点信息浏览方式，游戏还可以，摄入效率比较低', en:'No hot-list browse; decent games but low intake efficiency' },
+  { group:3, star:true, name:'Newgrounds', url:'https://www.newgrounds.com/', zh:'还挺艺术化的，适合作为平时的摄入', en:'Quite artsy, good for regular browsing' },
+  { group:3, star:true, name:'Flomob', url:'https://www.flomob.com/', zh:'海外版的game.ui，原型图库', en:'Overseas counterpart of game.ui; a prototype/reference library' },
+  { group:3, star:false, name:'MobyGames', url:'https://www.mobygames.com/', zh:'游戏资料库，信息检索用的', en:'Game database, for information lookup' },
+];
+
+function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function t(){ return UI[LANG]; }
+function setLang(lang){
+  LANG = lang;
+  localStorage.setItem('trendLang', lang);
+  $('#btnZh').classList.toggle('active', lang==='zh');
+  $('#btnEn').classList.toggle('active', lang==='en');
+  document.documentElement.lang = lang==='zh' ? 'zh-CN' : 'en';
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t()[el.getAttribute('data-i18n')]; });
+  render();
+}
+function render(){
+  const L = t();
+  const wrap = $('#groups');
+  wrap.innerHTML = '';
+  [1,2,3].forEach(g => {
+    const sec = document.createElement('section');
+    sec.className = 'group';
+    const titleKey = 'g'+g, descKey = 'g'+g+'d';
+    const items = CHANNELS.filter(c => c.group === g);
+    let html = `<h2><span class="bar"></span>${esc(L[titleKey])}</h2><p class="g-desc">${esc(L[descKey])}</p><div class="grid">`;
+    items.forEach(c => {
+      const note = LANG==='zh' ? c.zh : c.en;
+      const star = c.star ? '<span class="badge">⭐</span>' : '';
+      html += `<div class="card ${c.star?'star':''}">
+        <div class="cname">${star}${esc(c.name)}</div>
+        <span class="tag">${esc(note)}</span>
+        <div class="note">${esc(note)}</div>
+        <a class="go" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)} ↗</a>
+      </div>`;
+    });
+    html += '</div>';
+    sec.innerHTML = html;
+    wrap.appendChild(sec);
+  });
+}
+$('#btnZh').addEventListener('click', () => setLang('zh'));
+$('#btnEn').addEventListener('click', () => setLang('en'));
+setLang(LANG);
+</script>
+</body>
+</html>
