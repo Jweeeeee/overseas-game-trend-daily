@@ -35,6 +35,9 @@
   .lang-switch { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
   .lang-switch button { background:var(--card2); color:var(--sub); border:0; padding:8px 14px; font-size:13px; cursor:pointer; }
   .lang-switch button.active { background:var(--accent); color:#fff; font-weight:700; }
+  .navlink { color:var(--accent); text-decoration:none; font-size:13px; border:1px solid var(--line); border-radius:8px; padding:8px 12px; white-space:nowrap; }
+  .navlink:hover { border-color:var(--accent); }
+  .actions { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
   .empty { padding:60px 20px; text-align:center; color:var(--sub); }
   footer { padding:24px; text-align:center; color:#666; font-size:12px; border-top:1px solid var(--line); }
   .status { font-size:12px; color:var(--sub); }
@@ -48,9 +51,12 @@
         <h1 data-i18n="h1">海外游戏上升趋势 TOP20</h1>
         <p data-i18n="subtitle">每日抓取 CrazyGames · Game Jolt · Newgrounds · Kongregate · Coolmath 榜单，按名次差分算出上升最快的新游 · 供海外手游策划创意输入</p>
       </div>
-      <div class="lang-switch">
-        <button id="btnZh" class="active" type="button">中文</button>
-        <button id="btnEn" type="button">EN</button>
+      <div class="actions">
+        <a class="navlink" href="channels.html" data-i18n="channelsLink">创意渠道清单 →</a>
+        <div class="lang-switch">
+          <button id="btnZh" class="active" type="button">中文</button>
+          <button id="btnEn" type="button">EN</button>
+        </div>
       </div>
     </div>
   </div>
@@ -79,7 +85,7 @@ const UI = {
     selectDate: '选择日期：', demo: '【示例数据】', latest: '（最新）',
     vs: '对比', risingGames: '款上升游戏', noRise: '本期榜单无上升项（两期快照间隔过短时属正常）。',
     newTag: '新上榜', prevRank: '上期', curRank: '本期', loadFail: '数据加载失败：',
-    generatedAt: '数据生成时间：',
+    generatedAt: '数据生成时间：', channelsLink: '创意渠道清单 →',
   },
   en: {
     h1: 'Overseas Games · Fastest Rising TOP20',
@@ -87,7 +93,7 @@ const UI = {
     selectDate: 'Date:', demo: '[SAMPLE DATA]', latest: ' (latest)',
     vs: 'vs', risingGames: 'rising games', noRise: 'No rising entries this period (normal when snapshots are close together).',
     newTag: 'New', prevRank: 'Prev', curRank: 'Now', loadFail: 'Data load failed:',
-    generatedAt: 'Generated at:',
+    generatedAt: 'Generated at:', channelsLink: 'Idea Channels →',
   },
 };
 
