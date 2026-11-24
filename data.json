@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:02:42.672Z",
+  "generatedAt": "2026-11-24T01:18:30.656Z",
   "sites": [
     "CrazyGames",
     "Coolmath Games",
@@ -54,10 +54,10 @@
           "nBefore": 29,
           "delta": 1,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/screw-out-bolts-and-nuts_16x9/20250711094331/screw-out-bolts-and-nuts_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Screw Out: Bolts and Nuts is a classic puzzle logic game where your goal is to unscrew bolts from various shapes and sort them by color into the correct containers. Each level presents a new challenge that requires patience, logic, and careful planning to succeed.",
+          "titleZh": "拧螺丝：螺栓与螺母",
+          "descZh": "经典解谜逻辑游戏，把各种形状上的螺栓拧下来，按颜色分类放进正确的容器。每关都是新挑战，需要耐心、逻辑和周密规划才能通关。"
         },
         {
           "site": "Newgrounds",
@@ -72,10 +72,10 @@
           "nBefore": 40,
           "delta": 1,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://picon.ngfiles.com/1063000/flash_1063663_card_fallback.jpg?f1795312432",
+          "desc": "no hard feelings",
+          "titleZh": "走廊尽头",
+          "descZh": "没有恶意。"
         },
         {
           "site": "CrazyGames",
@@ -90,10 +90,10 @@
           "nBefore": 29,
           "delta": 0.9744,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/spider-solitaire-fuw_16x9/20251008073941/spider-solitaire-fuw_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Spider Solitaire is a timeless card puzzle where strategy and precision lead to victory. Arrange cards in descending order from King to Ace within the same suit to clear the tableau.",
+          "titleZh": "蜘蛛纸牌",
+          "descZh": "经久不衰的纸牌解谜游戏，策略与精准方能取胜。按同花色从 K 到 A 降序排列卡牌，清空牌面。"
         },
         {
           "site": "CrazyGames",
@@ -108,10 +108,10 @@
           "nBefore": 29,
           "delta": 0.9487,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/8-ball-pool-billiards-multiplayer_16x9/20260722044342/8-ball-pool-billiards-multiplayer_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "8 Ball Pool Billiards Multiplayer is a competitive sports pool game that lets you test your skills in exhilarating 2-player matches against friends or go head-to-head with players from around the world. Perfect your game by competing against expert bots to sharpen your strategies and techniques.",
+          "titleZh": "8球台球：多人对战",
+          "descZh": "竞技体育台球游戏，在刺激的双人对战中与朋友切磋，或与全球玩家一较高下。与高手机器人对战，磨练你的策略与技巧。"
         },
         {
           "site": "CrazyGames",
@@ -126,10 +126,10 @@
           "nBefore": 29,
           "delta": 0.9231,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/real-war-not-fake-sno_16x9/20260813072730/real-war-not-fake-sno_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Real War: Not Fake is an action shooting game where you lead an army down a scrolling battlefield ready to defend yourself on the front lines! Pick the right gates to walk through to build up your rewards and army so you can get to the very end alive.",
+          "titleZh": "真实战争：并非虚假",
+          "descZh": "动作射击游戏，率领军队沿滚动的战场前进，在前线随时准备防御。选择合适的门通过，积累奖励和兵力，一路活着冲到最后。"
         },
         {
           "site": "CrazyGames",
@@ -144,10 +144,10 @@
           "nBefore": 29,
           "delta": 0.8974,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/polytrack_16x9/20260310095956/polytrack_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "PolyTrack is a classic car racing game with a slight twist. You race a car you've customized, on a track you might have designed yourself.",
+          "titleZh": "多边形赛道",
+          "descZh": "经典赛车游戏，但略有新意：驾驶你亲手改装的车，在或许由你自己设计的赛道上飞驰。"
         },
         {
           "site": "CrazyGames",
@@ -162,10 +162,10 @@
           "nBefore": 29,
           "delta": 0.8718,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/bid-boss_16x9/20261029040842/bid-boss_16x9-cover.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Become the ultimate auction boss! Inspect storage units by flashlight, outbid sharp rivals and discover what’s hidden inside: junk, treasures… or a priceless jackpot.",
+          "titleZh": "竞价老板",
+          "descZh": "成为终极拍卖老板！用手电筒检查储物单元，与精明的对手竞价，发现里面藏着什么：垃圾、珍宝，还是无价的头奖。"
         },
         {
           "site": "CrazyGames",
@@ -180,10 +180,10 @@
           "nBefore": 29,
           "delta": 0.8462,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/mini-golf-club_16x9/20260609101725/mini-golf-club_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Mini Golf Club is a multiplayer mini-golf game where you compete against real players across short, themed courses. Your objective is to sink the ball in as few strokes as possible before the timer runs out.",
+          "titleZh": "迷你高尔夫俱乐部",
+          "descZh": "多人迷你高尔夫游戏，在简短的主题球场上与真实玩家同场竞技。目标是在计时结束前用最少的杆数把球入洞。"
         },
         {
           "site": "CrazyGames",
@@ -198,10 +198,10 @@
           "nBefore": 29,
           "delta": 0.8205,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/claw-master_16x9/20261106094054/claw-master_16x9-cover.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Claw Master is a unique arcade RPG that combines a claw machine, roguelike mechanics, and dungeon crawling into one exciting adventure. Control your claw, collect loot, discover powerful weapons, uncover hidden treasures, and explore dangerous dungeons filled with monsters and epic bosses.",
+          "titleZh": "抓娃娃大师",
+          "descZh": "独特的街机 RPG，把抓娃娃机、Roguelike 机制和地下城探索融为一体。操控抓爪、收集战利品、发现强力武器、揭开隐藏宝藏，探索遍布怪物和史诗 Boss 的危险地下城。"
         },
         {
           "site": "CrazyGames",
@@ -216,10 +216,10 @@
           "nBefore": 29,
           "delta": 0.7949,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/sky-riders-buk_16x9/20240206045724/sky-riders-buk_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Sky Riders is a high-speed casual vehicle driving game. Put your driving skills to the test as you complete several challenging tracks.",
+          "titleZh": "天空骑士",
+          "descZh": "高速休闲驾驶游戏。完成数条富有挑战性的赛道，测试你的驾驶技巧。"
         },
         {
           "site": "CrazyGames",
@@ -234,10 +234,10 @@
           "nBefore": 29,
           "delta": 0.7692,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/worldguessr_16x9/20241018082520/worldguessr_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Worldguessr is a casual quiz game, a free alternative to Geoguessr, perfect for testing and expanding your geography skills through immersive Street View exploration. Each round, you will find yourself dropped into random locations around the globe, with only environmental clues to guide you in pinpointing your exact whereabouts.",
+          "titleZh": "世界猜猜看（地理猜谜）",
+          "descZh": "休闲问答游戏，是 Geoguessr 的免费替代品，通过沉浸式街景探索来测试和扩展地理知识。每轮你都会被投放到全球随机地点，只能靠环境线索推断自己的确切位置。"
         },
         {
           "site": "CrazyGames",
@@ -252,10 +252,10 @@
           "nBefore": 29,
           "delta": 0.7436,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/rocketgoal-io_16x9/20260108075807/rocketgoal-io_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "RocketGoal.io is an IO sports game where you drive around a soccer field to compete in intense matches against other players. Drive rocket-powered cars across the arena, show off wild aerial moves, and of course, score as many goals as possible.",
+          "titleZh": "火箭进球",
+          "descZh": "IO 体育游戏，你驾驶汽车在足球场上与其他玩家展开激烈对决。开着火箭驱动的赛车驰骋球场，秀出狂野的空中特技，当然，还要尽可能多地进球！"
         },
         {
           "site": "CrazyGames",
@@ -270,10 +270,10 @@
           "nBefore": 29,
           "delta": 0.7179,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/lumber-harvest-tree-cutting-game_16x9/20250619095414/lumber-harvest-tree-cutting-game_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Lumber Harvest: Tree Cutting Game is a relaxing progression game where you drive a powerful tractor to clear forests and collect timber. You’ll upgrade your saw, expand your truck’s capacity, and unlock new areas as you turn trees into profit.",
+          "titleZh": "伐木收获：砍树游戏",
+          "descZh": "轻松的养成游戏，驾驶强力拖拉机清理森林、收集木材。升级电锯、扩容卡车、解锁新区域，把树木变成利润。"
         },
         {
           "site": "CrazyGames",
@@ -288,10 +288,10 @@
           "nBefore": 29,
           "delta": 0.6923,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/forgotten-treasure-2---match-3_16x9/20251119083711/forgotten-treasure-2---match-3_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Forgotten Treasure 2 is a puzzle game where you combine jewels to crash obstacles using your logic and go through numerous challenges. At the moment, there are more than a thousand levels and this is far from the limit.",
+          "titleZh": "失落的宝藏2：三消",
+          "descZh": "益智游戏，运用逻辑消除宝石、击碎障碍，闯过重重挑战。目前已有上千关卡，而且远未到尽头。"
         },
         {
           "site": "CrazyGames",
@@ -306,10 +306,10 @@
           "nBefore": 29,
           "delta": 0.6667,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/dead-land-survival_16x9/20250522020745/dead-land-survival_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Dead Land: Survival is a survival horror game set in a zombie-infested apocalyptic world where you fight for survival with powerful skills you accumulate throughout gameplay. Fortify your shelter against relentless undead attacks and scavenge through desolate territories in search of valuable resources.",
+          "titleZh": "死亡之地：生存",
+          "descZh": "生存恐怖游戏，背景是丧尸横行的末日世界，你在游戏中积累强大技能、为生存而战。加固庇护所抵御亡灵的持续进攻，在荒芜之地搜寻宝贵资源。"
         },
         {
           "site": "CrazyGames",
@@ -324,10 +324,10 @@
           "nBefore": 29,
           "delta": 0.641,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/farm-ring-idle_16x9/20261008043429/farm-ring-idle_16x9-cover.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Farm Ring Idle is a circular farming simulation that challenges you to expand outward from a tiny central plot into a thriving, automated ring of crops. Grow vegetables, unlock smart upgrades, and deploy robotic helpers to streamline your harvest.",
+          "titleZh": "农场指环：放置",
+          "descZh": "环形农场模拟游戏，从中心的小块地向外扩张，发展成自动化种植的繁荣环形农场。种植蔬菜、解锁智能升级、部署机器人助手，让收获更轻松。"
         },
         {
           "site": "CrazyGames",
@@ -342,10 +342,10 @@
           "nBefore": 29,
           "delta": 0.6154,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/bus-escape-clear-jam_16x9/20260226030858/bus-escape-clear-jam_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Dismantle the bus and send the passengers home in this colorful parking puzzle that delivers both fun and a brain workout. Combining simple gameplay with increasing difficulty, the game is perfect for fans of strategic puzzles and driving simulators.",
+          "titleZh": "巴士逃脱：疏通拥堵",
+          "descZh": "色彩缤纷的停车解谜游戏，拆开巴士、送乘客回家，既有趣又烧脑。玩法简单、难度递增，非常适合策略解谜和驾驶模拟爱好者。"
         },
         {
           "site": "CrazyGames",
@@ -360,10 +360,10 @@
           "nBefore": 29,
           "delta": 0.5897,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/table-tennis-world-tour_16x9/20230908041108/table-tennis-world-tour_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Table Tennis World Tour is a thrilling sports game where you compete in table tennis matches against various opponents.Choose your country and step into the global arena, where you'll face off against a diverse array of opponents from around the world.",
+          "titleZh": "乒乓球世界巡回赛",
+          "descZh": "刺激的体育游戏，与不同对手进行乒乓球比赛。选择你的国家，登上全球赛场，与来自世界各地的各路对手过招。"
         },
         {
           "site": "CrazyGames",
@@ -378,10 +378,10 @@
           "nBefore": 29,
           "delta": 0.5641,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/favorite-puzzles_16x9/20250616154206/favorite-puzzles_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Favorite Puzzles is a free jigsaw puzzle game with a wide selection of beautiful images to suit everyone. This game is designed to give you the ultimate puzzle-solving experience.",
+          "titleZh": "最爱拼图",
+          "descZh": "免费的拼图游戏，提供大量精美图片，适合所有人。游戏旨在为你带来极致的拼图解谜体验。"
         },
         {
           "site": "CrazyGames",
@@ -396,10 +396,10 @@
           "nBefore": 29,
           "delta": 0.5385,
           "isNew": true,
-          "cover": "",
-          "desc": "",
-          "titleZh": "",
-          "descZh": ""
+          "cover": "https://imgs.crazygames.com/hidden-object-clues-and-mysteries_16x9/20250827065157/hidden-object-clues-and-mysteries_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+          "desc": "Hidden Object: Clues and Mysteries is a charming puzzle game that invites players to uncover secrets hidden within cozy, beautifully illustrated scenes. Follow a calm and clever detective as your guide while you explore each setting, searching for concealed items, solving gentle puzzles, and connecting mysterious clues.",
+          "titleZh": "隐藏物品：线索与谜团",
+          "descZh": "迷人的解谜游戏，邀请玩家在温馨精美的场景中发现隐藏的秘密。跟随一位冷静聪慧的侦探，探索每个场景，寻找隐藏物品、解开谜题、串联神秘线索。"
         }
       ]
     },
