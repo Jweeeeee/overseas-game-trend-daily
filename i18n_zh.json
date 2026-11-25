@@ -110,5 +110,85 @@
   "crazygames:hidden-object-clues-and-mysteries": {
     "title": "隐藏物品：线索与谜团",
     "desc": "迷人的解谜游戏，邀请玩家在温馨精美的场景中发现隐藏的秘密。跟随一位冷静聪慧的侦探，探索每个场景，寻找隐藏物品、解开谜题、串联神秘线索。"
+  },
+  "newgrounds:1063604": {
+    "title": "丹麦规则长曲棍球",
+    "desc": "另一款面向移动端的小型雅达利复古风格游戏。"
+  },
+  "crazygames:stone-grass-mowing-simulator": {
+    "title": "石头草地：割草模拟器",
+    "desc": "《石头草地：割草模拟器》是一款轻松又上瘾的游戏，你操控一台强力割草机，把杂乱的荒地修整得整整齐齐。在茂密的杂草间顺畅滑行，以令人满足的精准度清除青草。"
+  },
+  "crazygames:ultimate-plane-upgrade-ies": {
+    "title": "终极飞机升级",
+    "desc": "《终极飞机升级》是一款发射升级类飞行游戏。拉紧弹弓，放飞你的飞机，看它能滑翔多远。"
+  },
+  "crazygames:obby-steal-an-egg": {
+    "title": "障碍跑：偷蛋",
+    "desc": "总得有人去偷那颗蛋。不如就你来吧。"
+  },
+  "crazygames:clean-the-moon-spd": {
+    "title": "清洁月球！",
+    "desc": "《清洁月球！》是一款轻松的 3D 清洁游戏，场景设在一颗布满陨石坑的小月球上。"
+  },
+  "crazygames:crack-the-egg": {
+    "title": "敲碎蛋壳！",
+    "desc": "一枚巨大的外星蛋矗立在沙漠挖掘现场中央，你的任务就是把它敲碎。用未来科技的能量枪把蛋壳一块块打碎，收集碎片，卖到回收站换金币。"
+  },
+  "crazygames:dig-for-the-lost-drive": {
+    "title": "挖掘失落的硬盘",
+    "desc": "《挖掘失落的硬盘》是一款街机游戏。2013 年，你在旧电脑上挖出了 8000 个 ByteNugget，并把钱包密码写在它的 12 块硬盘上，后来这台电脑被扔进了垃圾堆。如今 1 个 ByteNugget 价值 1 万美元：你的钱包价值 8000 万美元！"
+  },
+  "crazygames:wild-west-city-building-sim": {
+    "title": "西部之城：建造模拟",
+    "desc": "欢迎来到西部之城，市长！化身拓荒者，成为你自己那座西部小镇的传奇缔造者。"
+  },
+  "newgrounds:1061495": {
+    "title": "季节更迭",
+    "desc": "改变世界。"
+  },
+  "crazygames:sweety-ludo": {
+    "title": "甜蜜飞行棋",
+    "desc": "《甜蜜飞行棋》将传统飞行棋与可爱的 2D 画风巧妙融合。在精彩的多人对战中挑战好友或全球玩家，收集糖果，称霸全场！"
+  },
+  "crazygames:world-z-defense---zombie-defense": {
+    "title": "世界末日防御：僵尸守卫",
+    "desc": "《世界末日防御：僵尸守卫》是一款刺激的动作防御游戏，玩家要对抗企图吞没世界的成群僵尸。在这个末日废土背景下，你的任务是策略性布置持不同武器的士兵，守住全球各地的城市——每种武器都有伤害、射速和装填速度等独特属性。"
+  },
+  "crazygames:train-simulator-3d-rvh": {
+    "title": "3D 火车模拟器",
+    "desc": "《3D 火车模拟器》让你驾驶强力列车驰骋在精彩的铁路线上！5 种不同列车、3 条精细路线、42 个生涯任务，体验专业火车司机的人生。"
+  },
+  "crazygames:canteen-rush": {
+    "title": "食堂大作战",
+    "desc": "《食堂大作战》是一款轻松又节奏明快的食堂经营游戏。你是大厨：从烹饪台端起新鲜菜肴，叠放好，在排队的人失去耐心前把取餐台摆满。"
+  },
+  "crazygames:lumen-vne": {
+    "title": "流明",
+    "desc": "你的光是唯一维系生命的东西，而它正在渐渐熄灭。在《流明》中，你的光芒同时就是生命值、视野和武器射程。"
+  },
+  "gamejolt:979953": {
+    "title": "FatBombStudios 持光者 2",
+    "desc": "🎮 关于本作《持光者 2》是一款节奏明快的游戏，邪恶的暗影与一队笨拙滑稽的持光熊展开对抗。持光熊们要躲避腐化，一直坚持到……"
+  },
+  "gamejolt:28844": {
+    "title": "jakeonaut 故障地牢",
+    "desc": "🎮 编辑2：如果你卡在墙里或遇到其他奇怪的卡住故障（切换故障类型也无法解决），可以按 DELETE 在你激活的最近检查点重生！……"
+  },
+  "gamejolt:19787": {
+    "title": "RainingLamppost 增强版",
+    "desc": "🎮 《EnHanced》已在 GameJolt、Itch 和 Steam 上线！https://gamejolt.com/games/EnHanced/347356 https://raininglamppost.itch.io/enhanced https://store.steampowered.com/app/882390/EnHanced/ 24/02/2017……"
+  },
+  "gamejolt:164227": {
+    "title": "BraveWolf 暗黑物语 Online - MMORPG",
+    "desc": "🎮 《暗黑物语》是一款 2D MMORPG，你可以展开充满动作、魔法与友谊的奇妙冒险。游戏时长可达数百小时，灵感源自经典 RPG……"
+  },
+  "gamejolt:415633": {
+    "title": "PinkyStudios 兰迪的相机",
+    "desc": "🎮 大家好！这个版本的《兰迪的相机》已停止开发。欢迎体验名为《散景冒险》的新版本！试玩版现已推出，完整版即将……"
+  },
+  "gamejolt:523700": {
+    "title": "Simon Jakobsson 腐朽之器",
+    "desc": "🎮 有东西苏醒了，从腐朽中升起。文明已经终结，比人类更古老的生物正从地底深处缓缓浮现。《腐朽之器》是一款复古风格……"
   }
 }
