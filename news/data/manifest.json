@@ -1,0 +1,63 @@
+{
+  "title": "新闻日报",
+  "subtitle": "游戏 · AI · 财经 · 时政与全球大事",
+  "updatedAt": "2026-11-26 18:04 CST",
+  "issues": [
+    {
+      "id": "2026-11-26-evening",
+      "type": "晚报",
+      "date": "2026-11-26",
+      "file": "2026-11-26-evening.json",
+      "generatedAt": "2026-11-26 18:08 CST"
+    },
+    {
+      "id": "2026-11-26-morning",
+      "type": "早报",
+      "date": "2026-11-26",
+      "file": "2026-11-26-morning.json",
+      "generatedAt": "2026-11-26 09:05 CST"
+    },
+    {
+      "id": "2026-11-25-evening",
+      "type": "晚报",
+      "date": "2026-11-25",
+      "file": "2026-11-25-evening.json",
+      "generatedAt": "2026-11-25 18:10 CST"
+    },
+    {
+      "id": "2026-11-25-morning",
+      "type": "早报",
+      "date": "2026-11-25",
+      "file": "2026-11-25-morning.json",
+      "generatedAt": "2026-11-25 09:05 CST"
+    },
+    {
+      "id": "2026-11-24-evening",
+      "type": "晚报",
+      "date": "2026-11-24",
+      "file": "2026-11-24-evening.json",
+      "generatedAt": "2026-11-24 18:08 CST"
+    },
+    {
+      "id": "2026-11-24-morning",
+      "type": "早报",
+      "date": "2026-11-24",
+      "file": "2026-11-24-morning.json",
+      "generatedAt": "2026-11-24 09:05 CST"
+    },
+    {
+      "id": "2026-11-23-evening",
+      "type": "晚报",
+      "date": "2026-11-23",
+      "file": "2026-11-23-evening.json",
+      "generatedAt": "2026-11-23 18:06 CST"
+    },
+    {
+      "id": "2026-11-23-morning",
+      "type": "早报",
+      "date": "2026-11-23",
+      "file": "2026-11-23-morning.json",
+      "generatedAt": "2026-11-23 09:14 CST"
+    }
+  ]
+}

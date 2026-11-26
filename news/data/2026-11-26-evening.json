@@ -1,0 +1,154 @@
+{
+  "id": "2026-11-26-evening",
+  "type": "晚报",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26 18:08 CST",
+  "window": "2026-11-26 09:00–18:00（当日动态为主，含隔夜延续）",
+  "highlights": [
+    "游戏：Mgame 放置 class RPG《Raising Ghosts》上线两天登顶 Google Play 与 Apple App Store 人气榜；Supercell 被曝完成对《Merge Mansion》开发商 Metacore 的全资收购",
+    "AI：JetBrains 发布 Mellum2.1 Instruct（12B MoE/2.5B 激活、Apache 2.0，token 近乎减半），面向本地 coding agent；Google 被曝推出前沿模型 Gemini 4 Carbon",
+    "财经：核心 PCE 升至 3.3%、Q3 GDP 上修至 4.3%，金价在 1 年多低位附近企稳于 3600 美元下方，12 月加息预期升温"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游 / 技术 / 大厂）",
+      "items": [
+        {
+          "title": "Mgame 放置 RPG《Raising Ghosts》上线两天登顶双榜",
+          "summary": "韩国 Mgame 将老网游《Ghosts》武侠世界观改编为放置 RPG，11 月 24 日上线，25 日登顶 Apple App Store 人气榜、26 日登顶 Google Play 人气榜。保留六职业/武功/像素画风，加入离线收益与 3 人战斗小队；预约用户超 100 万。对休闲放置品类而言，是老 IP 轻量复活 + 离线成长变现的典型样本。",
+          "image": "https://eda.edailystatic.com/data/eda/image/2026/11/24/eda20261124100508.1280x.0.jpg",
+          "imageCredit": "EDaily",
+          "sources": [
+            {"name": "EDaily（英文版·原文核实）", "url": "https://en.edaily.co.kr/news/eda202611265226/", "date": "2026-11-26 10:23", "note": "公司口径，含榜单时间与预约数"}
+          ]
+        },
+        {
+          "title": "Supercell 被曝全资收购《Merge Mansion》开发商 Metacore",
+          "summary": "GMT Eight 11 月 26 日报道：腾讯关联的芬兰厂商 Supercell 已完成对休闲厂商 Metacore 的全资收购，Merge Mansion 团队并入 Supercell。报道称 Supercell 此前累计投资约 1.8 亿欧元（约 13.5 亿元人民币），5 月披露意向、8 月 31 日签约、10 月 19 日交割。属媒体转述，交易细节以官方公告为准。",
+          "sources": [
+            {"name": "GMT Eight（媒体转述）", "url": "https://gmteight.com/flash/detail/1565760", "date": "2026-11-26", "note": "单源待核；交割细节引自公告，未直连官方源"}
+          ]
+        },
+        {
+          "title": "派对游戏《Suits & Stallions》上线手游，主打整蛊好友 + 瓷马赛跑",
+          "summary": "GamingOnPhone 11 月 26 日报道，一款支持离线与在线多人的赛马派对游戏《Suits & Stallions》已登陆移动端，核心玩法为破坏对手与瓷马竞速。契合休闲社交派对赛道，来源为单一媒体，玩法细节待核。",
+          "sources": [
+            {"name": "GamingOnPhone（单源待核）", "url": "https://gamingonphone.com/news/suits-stallions-lets-you-sabotage-friends-and-race-porcelain-horses-in-this-new-party-game-now-live-on-mobile/", "date": "2026-11-26", "note": "单源待核"}
+          ]
+        },
+        {
+          "title": "韩国独立开发者放置塔防《Keeper Wanted: Idle Defense》双端上线",
+          "summary": "TalkEsport 11 月 26 日报道，韩国独立开发者 Boreumdal 的像素风免费放置塔防《Keeper Wanted: Idle Defense》已登陆 iOS 与 Android，主打 1000 夜海怪与 1000 万美元悬赏设定。为小团队低成本放置品类上线案例，单源待核。",
+          "sources": [
+            {"name": "TalkEsport（单源待核）", "url": "https://www.talkesport.com/mobile-gaming/keeper-wanted-idle-defense-ios-android-release/", "date": "2026-11-26", "note": "单源待核"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 产品 / 工作流与 skill / 研究）",
+      "items": [
+        {
+          "title": "JetBrains 发布 Mellum2.1 Instruct：为 coding agent 提速的开源小模型",
+          "summary": "JetBrains 11 月 25 日（官方博客）发布 Mellum2.1 Instruct，12B MoE、每 token 激活 2.5B，Apache 2.0，直出答案不带思维链。官方称 agentic 编码任务上 token 生成量约为 Thinking 版一半（SWE-bench Verified 40.4 vs 47.0），配 MTP 头最高提速 1.8 倍；提供 GGUF 可在本地跑。对本地 12GB 显存环境是值得实测的小模型候选。",
+          "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/mellum2.1-instruct-tokens-1.png",
+          "imageCredit": "JetBrains Blog",
+          "sources": [
+            {"name": "JetBrains Blog（官方原文核实）", "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/", "date": "2026-11-25", "note": "官方博客，含基准与 Hugging Face 链接"}
+          ]
+        },
+        {
+          "title": "Anthropic 用 Claude agent 将 Messages API 从 Python 迁移到 Rust",
+          "summary": "The Neuron / BYOBot 11 月 26 日聚合消息：Anthropic 称于 11 月 25 日把客户与 Claude Code 调用的 Messages API 从 Python 迁至 Rust，并把迁移工作交给 Claude agent 完成（见其工程文章）。属聚合二手转述，官方原文未直连核实，细节待核。",
+          "sources": [
+            {"name": "The Neuron（聚合·二手转述）", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/", "date": "2026-11-26", "note": "Cloudflare 拦截正文，仅标题级摘要；单源待核"},
+            {"name": "BYOBot（聚合·二手转述）", "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-26-2026", "date": "2026-11-26", "note": "交叉旁证，同为聚合源"}
+          ]
+        },
+        {
+          "title": "PrismML 发布三值权重大模型 Ternary Bonsai 2.5 27B：54GB 压到 5.9GB",
+          "summary": "AnishoAI / The Decoder 11 月 26 日消息：PrismML 放出 Ternary Bonsai 2.5 27B，把 54GB 模型压到 5.9GB，每个权重仅取三个可能值，意在让大模型在极小显存下可用。若属实对本地推理意义较大，目前为聚合二手转述、单源待核。",
+          "sources": [
+            {"name": "AnishoAI（聚合·单源待核）", "url": "https://anishoai.com/en/news/ai-models/2026-11-26", "date": "2026-11-26", "note": "转述 The Decoder，未直连官方，参数与体积待核"}
+          ]
+        },
+        {
+          "title": "Google 被曝推出前沿模型 Gemini 4 Carbon，主打网安防御与复杂工程",
+          "summary": "GMT Eight 11 月 26 日消息：Google 发布新一代前沿模型 Gemini 4 Carbon，强调维持网络安全防御能力与处理复杂工程问题，消息后谷歌股价盘中走高。为媒体转述，官方发布页未直连核实，型号与能力表述待核。",
+          "sources": [
+            {"name": "GMT Eight（媒体转述·单源待核）", "url": "https://gmteight.com/flash/detail/1580213", "date": "2026-11-26", "note": "单源待核，未直连 Google 官方"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量·不深度投研）",
+      "items": [
+        {
+          "title": "核心 PCE 升至 3.3%、Q3 GDP 上修至 4.3%，金价在低位附近企稳",
+          "summary": "FXStreet/CNBC 11 月 26 日：美国 10 月 PCE 同比 3.8%（前值 3.7%），核心 PCE 3.3%（前值 3.1%），Q3 GDP 年化上修至 4.3%（初值 3.4%）。金价周三跌至 2025 年 9 月以来低位、跌破 3500 美元后反弹，周四在 3600 下方震荡，约 3573–3591 美元/盎司。数据为媒体报道的 CFD/现货参考价，非官方结算价。",
+          "image": "https://editorial.fxsstatic.com/images/i/gold-03.jpg",
+          "imageCredit": "FXStreet",
+          "sources": [
+            {"name": "FXStreet（原文核实）", "url": "https://www.fxstreet.com/news/gold-struggles-to-extend-bounce-from-15-month-low-as-fed-hike-bets-usd-uptick-cap-gains-202611260450", "date": "2026-11-26 08:45 GMT", "note": "含 PCE/GDP 具体数值与技术位"},
+            {"name": "CNBC（原文核实）", "url": "https://www.cnbc.com/2026/11/26/gold-federal-reserve-interest-rate-metals.html", "date": "2026-11-26", "note": "金价企稳、加息预期升温"}
+          ]
+        },
+        {
+          "title": "FedWatch：交易员定价 2027 年初再加两次息，美元获买盘",
+          "summary": "FXStreet 11 月 26 日：CME FedWatch 显示交易员仍定价 2027 年初再加两次息；高通胀 + 强增长 + 中东地缘避险共同推动美元买盘，美元指数在 104 下方、感恩节薄流动性中盘整。属市场预期定价，非美联储表态。",
+          "sources": [
+            {"name": "FXStreet（原文核实）", "url": "https://www.fxstreet.com/news/gold-struggles-to-extend-bounce-from-15-month-low-as-fed-hike-bets-usd-uptick-cap-gains-202611260450", "date": "2026-11-26", "note": "FedWatch 定价与美元指数位"}
+          ]
+        },
+        {
+          "title": "中东地缘升级：胡塞袭击利雅得与炼油厂，沙特反击荷台达",
+          "summary": "FXStreet 11 月 26 日援引报道：伊朗支持的胡塞武装称周三袭击沙特首都利雅得 King Abdullah 金融区与东部炼油厂，沙特主导联军称打击荷台达港目标，萨那亦有袭击报告。冲突升级助推避险美元、间接压制金价。为媒体转述，双方战果各执一词。",
+          "sources": [
+            {"name": "FXStreet（原文核实·转述地缘消息）", "url": "https://www.fxstreet.com/news/gold-struggles-to-extend-bounce-from-15-month-low-as-fed-hike-bets-usd-uptick-cap-gains-202611260450", "date": "2026-11-26", "note": "战果为各方声称，未独立核实"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "美联邦法官拒绝长期禁止纳税人资助的亲特朗普广告",
+          "summary": "AP 11 月 26 日：一名联邦法官周三驳回民主党全国委员会诉求，拒绝延长对联邦政府资助、被批为宣传和亲特朗普广告的临时禁令。此事发生在中期选举之后，涉及纳税人资金与党派内容边界。",
+          "sources": [
+            {"name": "AP（原文核实）", "url": "https://apnews.com/article/dnc-trump-ads-propaganda-lawsuit-fcc1b61e8e7134c01ca3e6dec7728442", "date": "2026-11-26", "note": "法院裁决，AP 原文"}
+          ]
+        },
+        {
+          "title": "美参院共和党否决结束伊朗战争决议，众院此前投票限制总统战争权",
+          "summary": "Ilke News Agency 11 月 26 日两篇报道：参议院共和党否决民主党主导、要求结束美国对伊朗军事介入的战争权力决议；众议院此前以 215–208 投票限制特朗普在伊朗的单边军事行动。反映中期选举后国会对战争权的分歧加剧。原文受 Cloudflare 拦截仅取标题级，两篇互证但细节待核。",
+          "sources": [
+            {"name": "Ilke News Agency（标题级·待核）", "url": "https://www.ilkha.com/english/world/us-senate-republicans-block-democratic-bid-to-end-iran-war-577072", "date": "2026-11-26", "note": "Cloudflare 拦截正文，仅标题级"},
+            {"name": "Ilke News Agency（众院投票·标题级·待核）", "url": "https://ilkha.com/english/world/us-house-votes-to-curb-trump-s-war-powers-on-iran-537172", "date": "2026-11-26", "note": "众院 215–208，标题级"}
+          ]
+        },
+        {
+          "title": "特朗普称愿与民主党就医保会面，专家质疑其会支持全民医保",
+          "summary": "Al Jazeera 11 月 26 日报道：特朗普表示愿意就 healthcare 与民主党会面；受访专家对他会支持 Medicare for All（全民医保）主张持怀疑态度。为延续性议题，网页抓取超时，仅取搜索摘要级，细节待核。",
+          "sources": [
+            {"name": "Al Jazeera（摘要级·单源待核）", "url": "https://www.aljazeera.com/news/2026/11/26/a-meeting-with-democrats-over-healthcare-trump-says-hes-open-to-it", "date": "2026-11-26", "note": "web_fetch 超时，仅搜索摘要"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-26 18:08 CST；覆盖窗口 11-26 09:00–18:00",
+    "scope": "检索范围：advanced_search（exa，timeRange=day）四主题分批 + web_fetch 原文核实；web_search 首轮多为旧闻已弃用",
+    "gaps": "缺口：The Neuron / PocketGamer / Ilke 正文受 Cloudflare 拦截仅取标题级；CNBC 与 Anadolu 原文截断；Al Jazeera 抓取超时仅摘要级；Supercell 收购、Gemini 4 Carbon、PrismML 压缩模型、Mellum 之外的 AI 消息均为聚合/媒体转述单源待核；金价与美元指数属 CFD/现货参考价非官方结算价；美伊战争权投票数字仅标题级待核。X 直连不可达本期未用 x_search；last30days 本机 Reddit 403 本期未跑。所有条目均为窗口内检索所得，未用记忆或编造补位；未检索到可信更新的子话题不强行补位。"
+  }
+}
