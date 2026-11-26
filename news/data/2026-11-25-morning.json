@@ -1,0 +1,160 @@
+{
+  "id": "2026-11-25-morning",
+  "type": "早报",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25 09:05 CST",
+  "window": "2026-11-24 09:00 至 2026-11-25 09:00（Asia/Shanghai），重点隔夜欧美动态",
+  "highlights": [
+    "隔夜金价跌逾 2% 至约 3556 美元/盎司，美联储 12 月加息预期升温；美国 11 月消费者信心 103.3 远超预期的 92.5。",
+    "美国民主党锁定众议院至少 259 席、为 1990 年来最大多数；参议院银行委员会排期黄仁勋国安听证。",
+    "英国手游开发者可申领 Google 2.6 亿英镑和解金；Supercell 用额外金币召回 Clash Royale 老玩家。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游 / 引擎 / 大厂 / 变现）",
+      "items": [
+        {
+          "title": "英国手游开发者可申领 Google 2.6 亿英镑和解金",
+          "summary": "Google Play 开发者和解基金开放申领，英国符合条件的手游工作室可领取部分赔款。涉及抽成与分发条款的历史和解落地，对中小发行商是现金流补充。",
+          "image": "https://media.pocketgamer.biz/images/141925/90358/google-play_l1200.jpg",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/uk-developers-can-now-claim-part-of-260m-google-settlement/", "date": "2026-11-24", "note": "compensation 栏目头条"}
+          ]
+        },
+        {
+          "title": "Supercell 向 Clash Royale 回归玩家发放最高 +49.6% 额外金币",
+          "summary": "限时「黄金回归」活动用金币加成召回流失玩家。老牌休闲竞技产品把「回归召回」做成常规运营手段，是留存/回流设计的直接参照。",
+          "image": "https://media.pocketgamer.biz/images/142352/90353/clashroyalegoldintrest_s470.jpg",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/supercell-offers-clash-royale-players-extra-gold-to-encourage-their-return/", "date": "2026-11-24", "note": "Golden Return"}
+          ]
+        },
+        {
+          "title": "GTA 6 上市冲击：英国手游动作/策略品类支出跌 24.5%",
+          "summary": "Appsflyer 数据显示英国手游动作与策略品类支出环比下滑 24.5%、IAP 收入跌 10.5%。3A 大作发行对休闲手游钱包份额的挤出效应值得买量侧警惕。",
+          "image": "https://media.pocketgamer.biz/images/142341/90348/gta6keyart_s470.jpg",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/uk-mobile-action-and-strategy-game-spending-falls-245-following-gta-6-launch/", "date": "2026-11-24", "note": "数据源 Appsflyer，单篇报道"}
+          ]
+        },
+        {
+          "title": "Sensor Tower 上线网页商店（D2C）收入估算工具",
+          "summary": "市场情报公司新增 web store 收入估算，并提供优惠表现与广告变现监测工具。D2C 变现的第三方度量正在补齐，便于评估绕开商店抽成的实际收益。",
+          "image": "https://media.pocketgamer.biz/images/136141/90354/sensor-tower-logo_s320.jpg",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/sensor-tower-introduces-web-store-revenue-estimates/", "date": "2026-11-24", "note": "Direct-to-consumer"}
+          ]
+        },
+        {
+          "title": "ITV Metavision 将《雷鸟》IP 带入 Roblox",
+          "summary": "基于 1960 年代经典电视 IP 打造 Roblox 体验。老 IP 借 UGC 平台做年轻化触达，是休闲/IP 合作方值得跟踪的授权路径。",
+          "image": "https://media.pocketgamer.biz/images/142350/90351/thunderbirds_s470.jpg",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/itv-studios-metavision-to-bring-thunderbirds-ip-to-roblox/", "date": "2026-11-24", "note": "IP Expansion"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 治理）",
+      "items": [
+        {
+          "title": "参议院银行委员会排期黄仁勋国家安全听证",
+          "summary": "在特朗普介入、黄仁勋全票复职英伟达 CEO 后，参院银行委员会安排公开听证，共和党参议员持续质疑其复职。AI 芯片治理与对华出口管制的政策风险上升。",
+          "sources": [
+            {"name": "NBC News（直播）", "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-white-house-congress-2026-live-updates-rcna611009", "date": "2026-11-24", "note": "两党担忧，直播更新"},
+            {"name": "POLITICO", "url": "https://www.politico.com/news/congress", "date": "2026-11-24", "note": "标题级，正文受 Cloudflare 拦截未取全文"}
+          ]
+        },
+        {
+          "title": "Google Gemini 4 Neon 已正式可用（GA）",
+          "summary": "第三方模型追踪显示 Gemini 4 Neon 于 11-18 面向开发者 GA，定位在 Hydrogen 与 Carbon 之间。属窗口外近期背景，不冒充当日发布。",
+          "sources": [
+            {"name": "Axis Intelligence", "url": "https://axis-intelligence.com/ai-model-release-tracker/", "date": "2026-11-18", "note": "第三方追踪，GA"},
+            {"name": "ModelHunt", "url": "https://modelhunt.ai/latest.html", "date": "2026-11-20 更新", "note": "交叉"}
+          ]
+        },
+        {
+          "title": "Anthropic 官方模型页列出 Claude Fable 5.2 / Mythos 5.2",
+          "summary": "Anthropic 模型页出现 Fable 5.2 与 Mythos 5.2，宣称在编码、金融与科学任务上刷新上限。页面未标发布日期，属官方主域但时点待核。",
+          "sources": [
+            {"name": "Anthropic", "url": "https://www.anthropic.com/news/models", "date": "未标注", "note": "官方主域，日期待核"}
+          ]
+        },
+        {
+          "title": "本窗口未检索到可信的重大 AI 模型首发",
+          "summary": "检索范围：web_search（英/中）、AI Release Tracker、ModelHunt。GPT-6.2 Astra / Claude Fable 5.2 的 11-30 预计均属第三方节奏推测，非官方公告，不计入。",
+          "sources": [
+            {"name": "AI Release Tracker", "url": "https://aireleasetracker.com/", "date": "查询于 2026-11-25", "note": "预计为节奏估算"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（黄金 / 利率 / 信心 / 原油）",
+      "items": [
+        {
+          "title": "金价隔夜跌逾 2%，收于约 3556 美元/盎司",
+          "summary": "美联储鹰派信号与 12 月加息高预期压制金价，叠加美股走弱触发资产抛售。不同源时点/口径有差异（收盘约 3555.82，盘中曾报 3629.91 近乎持平），以各源标注为准；属现货/CFD 参考价。",
+          "sources": [
+            {"name": "CNBC / Reuters", "url": "https://www.cnbc.com/2026/11/24/gold-bargain-buying-us-inflation-data.html", "date": "2026-11-24", "note": "跌逾2%，鹰派+加息预期"},
+            {"name": "KuCoin Flash", "url": "https://www.kucoin.com/news/flash/gold-tests-3550-level-amid-fed-hike-expectations-oil-hits-3-month-low", "date": "2026-11-24 23:44 UTC", "note": "收 3555.82，单源数值待核"}
+          ]
+        },
+        {
+          "title": "美国 11 月消费者信心 103.3，远超预期 92.5",
+          "summary": "世界大型企业联合会（Conference Board）信心指数 103.3，现况 132.8、预期 83.6 重回 80 荣枯线上方，报告称中期选举后不确定性下降。消费韧性或强化鹰派立场。",
+          "sources": [
+            {"name": "Global Macro Daily", "url": "https://globalmacrodaily.com/", "date": "2026-11-25", "note": "数据转述，单源待核"}
+          ]
+        },
+        {
+          "title": "核心 PCE 临近，美元强势、原油触三个月低点",
+          "summary": "市场聚焦本周美国核心 PCE 以判断美联储路径；美元指数维持在约 103 高位，原油受供应与需求担忧回落。事件叙述为媒体报道，非官方结论。",
+          "sources": [
+            {"name": "FXStreet", "url": "https://www.fxstreet.com/analysis/forex-gold-oil-outlook-usd-strength-ahead-of-core-pce-202611231715", "date": "2026-11-23 17:15 GMT", "note": "分析观点，非官方数据"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "美国民主党锁定众议院至少 259 席，1990 年来最大多数",
+          "summary": "美联社统计民主党拿下至少 259 席，为 1990 年以来最大众院多数，特朗普政府的立法空间进一步收窄。结果于隔夜确认。",
+          "sources": [
+            {"name": "AP News", "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-07b3ccbe60db7c1d3d3f3087d8fca721", "date": "2026-11-24 18:54 MST", "note": "官方计票报道"}
+          ]
+        },
+        {
+          "title": "众院民主党扩大对特朗普之子投资公司的调查",
+          "summary": "众议员 Jamie Raskin 扩大对 Donald Trump Jr. 风险投资机构 1789 Capital 的调查。属国会监督线延续，尚无结论，仅记事实。",
+          "sources": [
+            {"name": "AP News · Congress", "url": "https://apnews.com/hub/congress", "date": "近期", "note": "进度中调查，无结论"}
+          ]
+        },
+        {
+          "title": "初选结果：Massie 落选，凸显特朗普对共和党掌控力",
+          "summary": "美联社初选复盘指出，部分初选出现「罕见的特朗普挫败」，但 Massie 落选被解读为特朗普对 GOP 影响力的明证。为中期选举后政治走向的观察点。",
+          "sources": [
+            {"name": "AP News · Politics", "url": "https://apnews.com/politics", "date": "2026-11-24", "note": "评论性复盘，单源待核"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-25 09:05 CST，覆盖窗口 2026-11-24 09:00 至 2026-11-25 09:00（Asia/Shanghai）",
+    "scope": "web_search（英/中分批，偏 past 24 hours）、web_fetch 原文核实、AI Release Tracker / ModelHunt；社区声音（last30days）本期省略（预算优先保主检索四主题）",
+    "gaps": "AI 板块隔夜无重大模型首发，GPT-6.2 Astra / Claude Fable 5.2 的 11-30 预计属第三方节奏推测非官方；Claude Fable 5.2 / Mythos 5.2 官方页未标日期待核；金价多源时点/口径不一（3556 收盘 vs 3630 盘中），已逐条标注；POLITICO 正文受 Cloudflare 拦截，黄仁勋听证取 NBC/POLITICO 标题级；X 直连不可达；本期图片均来自检索返回的 PocketGamer 真实图链。"
+  }
+}
