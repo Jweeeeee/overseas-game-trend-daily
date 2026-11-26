@@ -1,0 +1,245 @@
+{
+  "id": "2026-11-25-evening",
+  "type": "晚报",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25 18:10 CST",
+  "window": "2026-11-25 09:00–18:00（当日欧美动态为主，含隔夜延续）",
+  "highlights": [
+    "游戏技术：NVIDIA Kimodo 成为首个接入 UE5.9 的 AI 动作生成模型，休闲社交手游 HighXP 获 220 万美元种子轮",
+    "AI 开源潮：蚂蚁 Ling-3.2-air（MIT）、百度 ERNIE 5.5 Flash Preview（Apache 2.0）同日放出权重，均主打 agent 与工具工作流",
+    "财经：金价从前一日逾 2% 跌幅中企稳，市场聚焦今晚 PCE，12 月加息概率被定价至约 97%"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游 / 技术 / 大厂）",
+      "items": [
+        {
+          "title": "NVIDIA Kimodo 成为首个接入 Unreal Engine 5.9 的 AI 动作生成模型",
+          "summary": "UE5.9 Preview 引入引导式动画框架与 Sequencer 工具，动画师可用文字提示、样条路径与目标姿态约束生成角色动作；同期发布 In-Game Inferencing SDK 1.8（新增 Parakeet 语音识别、Vulkan 优先 API）与 RTX 光追工具更新。属引擎侧技术变革，对中小团队降低动作制作门槛有参考价值。",
+          "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/Featured-War-Thunder-DLSS-5-on-1024x576-jpg.webp",
+          "imageCredit": "NVIDIA Technical Blog",
+          "sources": [
+            {
+              "name": "NVIDIA Technical Blog（官方原文，11-24）",
+              "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+              "date": "2026-11-24",
+              "note": "官方主域原文已核实"
+            }
+          ]
+        },
+        {
+          "title": "休闲社交游戏工作室 HighXP 获 220 万美元种子轮",
+          "summary": "印度班加罗尔休闲游戏工作室 HighXP 完成 220 万美元种子融资，由 3one4 Capital 领投，用于推出社交类休闲游戏。反映休闲手游赛道早期资本仍在小额试水。",
+          "sources": [
+            {
+              "name": "For Press Release（新闻稿转载，11-25）",
+              "url": "https://forpressrelease.com/forpressrelease/617095/5/casual-gaming-studio-highxp-raises-22-million-to-launch-casual-social-games",
+              "date": "2026-11-25",
+              "note": "单一新闻稿来源，金额待二次核"
+            }
+          ]
+        },
+        {
+          "title": "冬季塔防新游 Snowroll: Snowman Defense 上线 Google Play",
+          "summary": "Skylines Games 的休闲塔防 Snowroll 上线安卓，玩法为划动雪地滚动雪球、松手堆成雪人阻挡敌人，属轻量触控休闲品类新上架案例。",
+          "sources": [
+            {
+              "name": "Skylines Games（厂商公告，11-25）",
+              "url": "https://www.skylinesgames.com/news/snowroll-is-out",
+              "date": "2026-11-25",
+              "note": "厂商自述，单源待核"
+            }
+          ]
+        },
+        {
+          "title": "Unity 展示 URP 图形改进，Atrio 示例项目免费开放",
+          "summary": "Unite Tokyo 2026 上 Unity 展示 Unity 6.7 与 Unity 7 通用渲染管线（URP）的改进，并放出新示例项目 Atrio（可探索庭院场景）供开发者学习；Unity 另宣布 AI 编码代理可经 Asset Store CLI 直接查找并导入资源。",
+          "sources": [
+            {
+              "name": "GameFromScratch（11-24）",
+              "url": "https://gamefromscratch.com/unity-urp-graphics-improvements/",
+              "date": "2026-11-24",
+              "note": "媒体转述官方发布"
+            },
+            {
+              "name": "Unity 官方博客（11-23）",
+              "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents",
+              "date": "2026-11-23",
+              "note": "官方主域"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 开源）",
+      "items": [
+        {
+          "title": "蚂蚁开源 Ling-3.2-air 多模态模型，采用 MIT 许可",
+          "summary": "Ling-3.2-air 支持文本/图像/视频，采用混合线性注意力 MoE，语言部分总参数 1240 亿、每 token 激活 55 亿；主打工具调用与专业工作流，官方称 AutomationBench-AA 任务完成率由 15.7% 升至 61%，支持 SGLang/vLLM 本地部署。",
+          "image": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/feed-20261125-05.png?fit=2000%2C851&ssl=1",
+          "imageCredit": "TechNode",
+          "sources": [
+            {
+              "name": "TechNode（11-25）",
+              "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+              "date": "2026-11-25",
+              "note": "原文已核实，含 HuggingFace 权重链接"
+            }
+          ]
+        },
+        {
+          "title": "百度开源 ERNIE 5.5 Flash Preview 权重，百万 token 上下文",
+          "summary": "Apache 2.0 许可，MoE 架构总参数 2800 亿、每 token 激活 140 亿，支持最长 100 万 token 上下文；额外针对编码、agent 工作流与知识工作训练，官方点名游戏开发与经 Blender/CAD 生成 3D 内容场景。",
+          "image": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/feed-20261125-03.jpg?fit=1920%2C960&ssl=1",
+          "imageCredit": "TechNode",
+          "sources": [
+            {
+              "name": "TechNode（11-25）",
+              "url": "https://technode.com/2026/11/25/baidu-opens-ernie-5-5-flash-preview-weights-with-million-token-context/",
+              "date": "2026-11-25",
+              "note": "原文已核实"
+            }
+          ]
+        },
+        {
+          "title": "Yandex 发布 YandexGPT 4 新一代模型",
+          "summary": "俄罗斯 Yandex 于 11-25 发布 YandexGPT 4 系列（含 Pro 版），称具备推理能力、可处理文本量约为前代 4 倍。非欧美主流模型，作趋势旁证。",
+          "sources": [
+            {
+              "name": "AKM EN（11-25）",
+              "url": "https://www.akm.ru/eng/press/yandex-launches-a-new-generation-of-yandexgpt-4-language-models-they-have-learned-to-reason-and-proc/",
+              "date": "2026-11-25",
+              "note": "单源待核"
+            }
+          ]
+        },
+        {
+          "title": "AI 日报聚合：GPT-6 蛋白设计、Midjourney Niji V8、Claude agent 扩展",
+          "summary": "The Neuron 11-25 聚合称 OpenAI 展示 GPT-6 蛋白设计能力、Midjourney 发布 Niji V8、Anthropic 扩展 Claude 的 agent 能力；均为聚合摘要，逐条待各自官方源确认。",
+          "sources": [
+            {
+              "name": "The Neuron（AI 日报聚合，11-25）",
+              "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/",
+              "date": "2026-11-25",
+              "note": "聚合单源，待核"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量）",
+      "items": [
+        {
+          "title": "金价企稳，市场聚焦今晚美国 PCE 通胀数据",
+          "summary": "黄金在前一交易日跌逾 2% 后于周三持稳，投资者等待当日晚些时候的美国通胀数据，为 12 月议息提供线索；CNBC 指出交易员定价 12 月加息概率约 97%。属方向预期，需以官方数据为准。",
+          "sources": [
+            {
+              "name": "CNBC（11-25）",
+              "url": "https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html",
+              "date": "2026-11-25",
+              "note": "原文已核实（加息方向与市场常规预期相反，按原文披露）"
+            }
+          ]
+        },
+        {
+          "title": "美元自近 20 个月高位回落，关税不确定性升温",
+          "summary": "CNBC 报道美元周三在数据前回吐，市场关注新一轮美国关税准备消息——进口成本上升可能既推升通胀又拖累增长；澳元因 CPI 走强上涨。",
+          "sources": [
+            {
+              "name": "CNBC（11-25）",
+              "url": "https://www.cnbc.com/2026/11/25/forex-dollar-currency-federal-reserve-euro.html",
+              "date": "2026-11-25",
+              "note": "原文已核实"
+            }
+          ]
+        },
+        {
+          "title": "贵金属与原油承压：黄金跌 0.91%、布伦特跌 1.24%",
+          "summary": "Centino Capital 11-25 早间市场综述称黄金报约 3523.73 美元/盎司（-0.91%）、白银 -1.82%、布伦特原油 -1.24% 至 87.68 美元；科技板块抛售与货币紧缩预期压制风险偏好。属 CFD 参考价，非官方结算价。",
+          "sources": [
+            {
+              "name": "Centino Capital（11-25）",
+              "url": "https://centrinocapital.com/insights/market-news-2026-11-25",
+              "date": "2026-11-25",
+              "note": "CFD 参考价，单源待核"
+            },
+            {
+              "name": "The Hindu BusinessLine（11-25）",
+              "url": "https://www.thehindubusinessline.com/markets/commodities/gold-slips-as-fed-hike-bets-weigh-silver-crude-base-metals-also-under-pressure/article71741631.ece",
+              "date": "2026-11-25",
+              "note": "交叉旁证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "特朗普松口愿与民主党谈医疗，拟会晤 El-Sayed 讨论「全民医保」",
+          "summary": "特朗普表示愿与民主党控制的国会达成医疗协议，并计划会见密歇根州当选参议员 Abdul El-Sayed，讨论其主张的 Medicare for All；El-Sayed 将该方案包装为「TrumpCare」。多源报道，尚属意向、未有法案。",
+          "sources": [
+            {
+              "name": "USA Today（11-25）",
+              "url": "https://www.usatoday.com/story/news/politics/2026/11/25/trump-abdul-el-sayed-medicare-for-all/92954166007/",
+              "date": "2026-11-25",
+              "note": "抓取受限，标题级；正文经 The Hill/New Republic 交叉"
+            },
+            {
+              "name": "The Hill（11-25）",
+              "url": "https://thehill.com/policy/healthcare/6238566-el-sayed-floats-trump-care-plan/",
+              "date": "2026-11-25",
+              "note": "原文已核实"
+            }
+          ]
+        },
+        {
+          "title": "POLITICO 民调：选民预期国会有所作为，油价上涨则追责特朗普",
+          "summary": "POLITICO 11-25 民调显示多数选民预期国会未来两年至少完成「相当一部分」工作，但相对多数认为若油价进一步上涨应由特朗普承担主要责任。反映中期选举后的民意风向。",
+          "sources": [
+            {
+              "name": "POLITICO（11-25）",
+              "url": "https://www.politico.com/news/2026/11/25/poll-democrats-congress-gas-prices-trump-01182642",
+              "date": "2026-11-25",
+              "note": "标题与摘要级（正文受 Cloudflare 限制）"
+            }
+          ]
+        },
+        {
+          "title": "乌克兰：与匈牙利新总理示好，俄袭击再致停电、核电站转柴油机",
+          "summary": "《卫报》报道乌克兰总统泽连斯基与匈牙利新总理 Péter Magyar 称将开启合作新阶段；同日乌克兰媒体报道俄方袭击造成新的停电，被占领的扎波罗热核电站切换到柴油发电机。属持续冲突动态，数字与伤亡待进一步核实。",
+          "sources": [
+            {
+              "name": "The Guardian（11-25）",
+              "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+              "date": "2026-11-25",
+              "note": "原文摘要级"
+            },
+            {
+              "name": "Ukrainska Pravda（11-25）",
+              "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064551/",
+              "date": "2026-11-25",
+              "note": "单源待核"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-25 18:10 CST；覆盖窗口 11-25 09:00–18:00",
+    "scope": "检索范围：web_search（exa，timeRange=day）四主题分批 + web_fetch 原文核实 + x_search 美国热议（二手转述）",
+    "gaps": "缺口：X 直连不可达（x_search 为二手转述）；POLITICO 正文受 Cloudflare 拦截仅取标题级；USA Today 抓取 402 仅标题级；The Neuron 为聚合单源待核；HighXP 融资、Snowroll 上线、YandexGPT 4 为单源待核；金价/油价属 CFD 参考价非官方结算价；last30days 本机 Reddit 403 本期未跑。所有条目均为窗口内检索所得，未用记忆或编造补位。"
+  }
+}
