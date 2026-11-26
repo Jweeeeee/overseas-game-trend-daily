@@ -1,0 +1,144 @@
+{
+  "id": "2026-11-23-evening",
+  "type": "晚报",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23 18:06 CST",
+  "window": "2026-11-23 09:00–18:00（北京时间）",
+  "highlights": [
+    "智谱 GLM-5.4 今日上线：新增视觉能力、百万 token 上下文、编码周额度提升 50%",
+    "现货黄金反弹 2.23% 至 3613.84 美元/盎司，市场定价美联储 12 月加息概率约 93–99%",
+    "UE6 官宣路线大改：未来项目不再含蓝图与 Actor 框架，改用 Verse + Scene Graph"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游 / 引擎与发行）",
+      "items": [
+        {
+          "title": "Epic 官宣 UE6 路线：项目将不含蓝图与 Actor 框架，转向 Verse + Scene Graph",
+          "summary": "11-20 官方公告，Epic 开发执行副总裁 Marcus Wassmer 说明 UE6 与 UEFN 合并为统一引擎，玩法改用 Verse 与新 Scene Graph 构建；对现有 UE5 项目的迁移影响是引擎选型的关键变量。本窗口无新发布，属近期重要动向。",
+          "sources": [
+            {"name": "Unreal Engine 官方", "url": "https://www.unrealengine.com/news/an-update-on-blueprints-and-the-path-to-ue6", "date": "2026-11-20", "note": "官方原文，一手"}
+          ]
+        },
+        {
+          "title": "Unity 7 进入公开 alpha，主打 AI 原生工作流与跨引擎互操作",
+          "summary": "Unite Seoul 2026 上 Unity 演示「Unity 游戏在 Unreal 中原生渲染」（Unity 负责模拟、Unreal 负责渲染，物理/光照/输入实时同步）；官方称 Unity 7 为「面向 AI 时代的引擎平台」，12 月预览在即。经 PC Gamer、Game Developer 交叉报道，仍属路线承诺非成品。",
+          "sources": [
+            {"name": "Shattered 分析（引 PC Gamer / Game Developer）", "url": "https://shattered.io/unity-7-reveal-runs-inside-unreal-engine-2026/", "date": "2026-11", "note": "二手分析，含一手引述"}
+          ]
+        },
+        {
+          "title": "育碧业绩不及预期，加码押注 AI 开发",
+          "summary": "Game Developer 11-20 报道，育碧财测落空并把重心转向 AI 辅助开发。对休闲手游团队的信号：大厂正把 AI 降本作为对冲业绩压力的主线之一。",
+          "image": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb66c65be8013263e/68f2953811a1e30cb46f9d11/assassinscreedwholegangfeatured.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+          "imageCredit": "Game Developer 报道配图",
+          "sources": [
+            {"name": "Game Developer", "url": "https://www.gamedeveloper.com/business/ubisoft-misses-forecast-and-bets-big-on-ai-development", "date": "2026-11-20", "note": "媒体转述，单源待核"}
+          ]
+        },
+        {
+          "title": "Sensor Tower 年度榜：Voodoo / Azur / SayGames / Playrix 仍居休闲发行商头部",
+          "summary": "AppFollow 2026 移动游戏趋势梳理引用 Sensor Tower 发行商排名，指出下载榜头部集中度高、休闲赛道格局稳定。属结构性背景，非当日事件。",
+          "sources": [
+            {"name": "AppFollow", "url": "https://appfollow.io/blog/mobile-gaming-trends-2026", "date": "2026", "note": "行业分析，背景参考"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 治理）",
+      "items": [
+        {
+          "title": "智谱 GLM-5.4 今日上线：新增视觉能力、百万 token 上下文、编码周额度 +50%",
+          "summary": "11-23 15:44 官宣，GLM-5.4 补上视觉能力并把上下文拉到百万 token，同时上调编码周额度 50%。今日最值得关注的一手模型更新，双源交叉。",
+          "sources": [
+            {"name": "新浪财经 / 新浪科技", "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztfnh0627708.shtml", "date": "2026-11-23 15:44", "note": "中文媒体转述官宣"},
+            {"name": "TechNode", "url": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/", "date": "2026-11-23", "note": "英文交叉，双源"}
+          ]
+        },
+        {
+          "title": "Hassabis 旗下 Isomorphic Labs 完成 50 亿美元融资",
+          "summary": "CNBC 11-17 报道，前 Google DeepMind CEO Demis Hassabis 的 AI 药物发现公司完成大额融资；Anthropic 6 月、OpenAI 与诺和诺德 4 月也已布局 AI 制药。",
+          "sources": [
+            {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html", "date": "2026-11-17", "note": "媒体报道，近期背景"}
+          ]
+        },
+        {
+          "title": "美国 AI 治理提速：加州 Newsom 提全面规则，州长协会发布治理原则",
+          "summary": "Politico 11-18 报道 Newsom 提出被视为华盛顿「模板」的全面 AI 规则；全国州长协会（NGA）本月也发布州与联邦层面的 AI 治理原则。监管从倡议走向州级立法框架。",
+          "sources": [
+            {"name": "Politico", "url": "https://www.politico.com/news/2026/11/18/newsom-ai-plan-01172739", "date": "2026-11-18", "note": "媒体报道"},
+            {"name": "National Governors Association", "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/", "date": "2026-11", "note": "官方发布"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（宏观 / 金油汇，轻量）",
+      "items": [
+        {
+          "title": "现货黄金反弹 2.23% 至 3613.84 美元/盎司",
+          "summary": "11-23 黄金涨约 2% 至 3600 美元上方，扭转前一日跌势，主因交易员下调对美联储激进加息的押注；但过去一个月仍跌 10.03%。属 CFD 参考价，非官方结算价。",
+          "sources": [
+            {"name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/gold", "date": "2026-11-23", "note": "CFD 参考价，单源"}
+          ]
+        },
+        {
+          "title": "市场定价美联储 12 月加息 25bp 概率约 93–99%",
+          "summary": "CME FedWatch 显示 12 月加息 25bp 概率升至约 93–99%，多名官员支持维持紧缩；财长贝森特警告过度收紧或伤经济。投资者等待 PCE 通胀数据。（注意：本条数据源表述为「加息」，与市场常规预期方向相反，以源文为准、待官方确认。）",
+          "sources": [
+            {"name": "Trading Economics（引 CME FedWatch）", "url": "https://tradingeconomics.com/commodity/gold/news/603349", "date": "2026-11-23", "note": "数据源转述，方向待核"},
+            {"name": "Reuters", "url": "https://www.reuters.com/business/feds-cook-says-rate-hikes-needed-lower-high-inflation-2026-11-20/", "date": "2026-11-20", "note": "官员表态交叉"}
+          ]
+        },
+        {
+          "title": "全球股市：AI 抛售冲击后美股期指反弹，韩股重挫",
+          "summary": "纳指 11-19 跌 5.28% 收 22617 点、抹去 2026 年涨幅；11-23 亚洲时段韩国 Kospi 跌 3.9%，随后美股期指反弹 2–3%，AI 交易企稳。波动源於 AI 主题去杠杆。",
+          "sources": [
+            {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html", "date": "2026-11-19", "note": "媒体报道"},
+            {"name": "The Hindu BusinessLine", "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-23-november-2026/article71733179.ece", "date": "2026-11-23", "note": "韩股/期指数据"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "特朗普称美国将惩罚在海外建设数据中心的企业",
+          "summary": "朝日新闻 11-23 08:15 JST 报道，特朗普表示将对把数据中心建在海外的企业施加惩罚，指向 AI 算力本土化与就业议题；具体政策口径待官方文件。",
+          "sources": [
+            {"name": "The Asahi Shimbun", "url": "https://www.asahi.com/ajw/articles/17072520", "date": "2026-11-23 08:15 JST", "note": "单源待核"}
+          ]
+        },
+        {
+          "title": "北卡胜选，民主党拿下自上世纪 90 年代初以来最大众议院多数",
+          "summary": "Reuters 11-22 报道，北卡罗来纳一役使民主党获得约三十年来最大众议院多数；参议院方面舒默的领导地位也因胜选被重新讨论。",
+          "sources": [
+            {"name": "Reuters", "url": "https://www.reuters.com/world/us/north-carolina-win-gives-democrats-biggest-us-house-majority-since-early-1990s-2026-11-22/", "date": "2026-11-22", "note": "通讯社，一手度高"}
+          ]
+        },
+        {
+          "title": "苏丹大喀土穆无人机袭击致至少 4 人死亡，联合国建筑受损",
+          "summary": "Anadolu 11-23 晨间简报：苏丹无人机袭击造成至少 4 人死亡并损坏一处联合国建筑；利比亚东部政府就班加西船只遇袭向联合国提出申诉，UNSMIL 呼吁独立调查。",
+          "sources": [
+            {"name": "Anadolu Agency", "url": "https://aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974", "date": "2026-11-23", "note": "通讯社简报"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-23 18:06 CST，覆盖 09:00–18:00（北京时间）",
+    "scope": "检索通道：web_search（游戏/AI/财经/时政四组）+ research/web_fetch 原文核实；结构化行情以 Trading Economics 转述 CME 为准；无 API key 未跑 last30days 社区声音。",
+    "gaps": "游戏板块本窗口无当日重大发布，收录 11-20 前后重要动向并标注；X 直连不可达；美联储「加息」方向与常规预期相反，已在正文标注待官方确认；部分条目单源待核；金价属 CFD 参考价非官方结算价。"
+  }
+}

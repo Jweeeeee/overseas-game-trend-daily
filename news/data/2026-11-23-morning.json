@@ -1,0 +1,157 @@
+{
+  "id": "2026-11-23-morning",
+  "type": "早报",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23 09:14 CST",
+  "window": "最近约 24 小时（偏隔夜欧美，截至 09:00 CST）｜首期早报",
+  "highlights": [
+    "COP31 气候谈判在土耳其无果而终，谈判方质疑三十年进程前路（Reuters）",
+    "特朗普签行政令：联邦承包商就国会问询须先咨询白宫、可扣留「特权」通信（AP／NPR）",
+    "AI 圈两条主线：Anthropic 传以 1.8 万亿美元估值冲刺上市；英伟达风波牵动对华芯片出口监管（WSJ／WaPo，单源待核）"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业｜游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "The Mobile Premiere 2026：16 家工作室集中展示 22 款手游",
+          "summary": "首届同类手游专场，面向全球集中发布新作，是观察休闲赛道供给的窗口。",
+          "sources": [
+            { "name": "Detroit News 新闻稿", "url": "https://www.detroitnews.com/press-release/story/196654/the-mobile-premiere-2026-showcases-22-games-from-16-studios-in-a-first-of-its-kind-mobile-gaming-showcase/", "date": "11月", "note": "单源" }
+          ]
+        },
+        {
+          "title": "Disney Merge Dreams 上线：SuperPlay × Playtika 合成类新游",
+          "summary": "11-20 全球发行周报收录，Merge 赛道头部厂商再落一子。",
+          "sources": [
+            { "name": "Mobilegamer.biz", "url": "https://mobilegamer.biz/new-game-digest-superplay-and-playtikas-next-games-new-nintendo-apps-spirit-crossing-more/", "date": "11-20", "note": "" }
+          ]
+        },
+        {
+          "title": "腾讯 Level Infinite 推 PUBG Mobile Flash：低内存轻量版全球上线",
+          "summary": "保留大逃杀玩法但降低内存与功耗占用，面向中低端设备市场。",
+          "sources": [
+            { "name": "Mobilegamer.biz", "url": "https://mobilegamer.biz/new-game-digest-pubg-transformers-plants-vs-zombies-football-manager-prince-of-persia-more/", "date": "11-13", "note": "" }
+          ]
+        },
+        {
+          "title": "软启动雷达：Playtika Bingo Gees、Top Guilds、Supercell Crownstone Survival",
+          "summary": "AppMagic 数据显示 Playtika 休闲 Bingo Gees 菲律宾测试；Top Guilds 六国测试；Crownstone Survival 传菲律宾软启动。",
+          "sources": [
+            { "name": "Gameforce Mobile", "url": "https://www.gameforcemobile.com/news/6016-mobile-soft-launch-radar-playtika-tests-bingo-gees-while-top-guilds-expands-across-six-mar", "date": "11-20", "note": "" },
+            { "name": "Mobilegamer.biz 软启动清单", "url": "https://mobilegamer.biz/the-soft-launch-games-you-need-to-know-about/", "date": "11-09", "note": "持续更新" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI｜模型 / 工作流",
+      "items": [
+        {
+          "title": "模型发布追踪：Gemini 4 Neon 为最新前沿模型，GPT-6.2 / Claude Fable 5.2 预计 11-30",
+          "summary": "聚合站追踪 342 个模型；称 GPQA 领先者为 GPT-6.2 Astra、SWE-Bench 领先者为 Claude Opus 5。聚合站口径，单源待核。",
+          "sources": [
+            { "name": "AI Release Tracker", "url": "https://aireleasetracker.com/", "date": "", "note": "单源待核" }
+          ]
+        },
+        {
+          "title": "Google 发布 Gemini 4 Hydrogen，主打可靠、低成本的 agentic workflow",
+          "summary": "官方博客定位为面向日常任务的智能体工作流模型；与上一条的 Neon 命名口径不一致，待进一步核实。",
+          "sources": [
+            { "name": "Google 官方博客", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/", "date": "", "note": "官方主域" }
+          ]
+        },
+        {
+          "title": "Anthropic 传以 1.8 万亿美元估值上市，成首家上市 AI 实验室",
+          "summary": "WSJ 视频报道其创纪录 IPO；另有报道称 OpenAI 暂停部分产品发布。均为媒体转述，单源待核。",
+          "sources": [
+            { "name": "WSJ", "url": "https://www.wsj.com/video/anthropic-goes-public-with-18t-valuation-how-did-it-happen-so-fast/16722643-8FBF-4A98-8EBB-C63826189872", "date": "11月", "note": "单源待核" }
+          ]
+        },
+        {
+          "title": "英伟达风波外溢至 AI 监管；Cloudflare 称 AI Agent 请求涨 1700%",
+          "summary": "华盛顿邮报社论质疑对华芯片管制成效；另有行业博客称 Agent 流量激增，需新型路由层。观点与厂商口径，待核。",
+          "sources": [
+            { "name": "Washington Post 社论", "url": "https://www.washingtonpost.com/opinions/2026/11/22/what-jensen-huang-scandal-nvidia-means-ai-regulation/", "date": "11-22", "note": "观点" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经（轻量，仅大事件）",
+      "items": [
+        {
+          "title": "美联储 10 月会议纪要暗示后续加息更趋激进",
+          "summary": "纪要点称官员或在未来数月更积极行动以抑制通胀，为利率路径关键信号。",
+          "sources": [
+            { "name": "U.S. News 基于会议纪要", "url": "https://www.usnews.com/news/economy/articles/2026-11-18/fed-poised-to-raise-rates-further-to-stem-inflation", "date": "11-18", "note": "" }
+          ]
+        },
+        {
+          "title": "黄金曾触及两周高点，美元、收益率、油价回落",
+          "summary": "Kitco 报道金价单日涨约 3.4%，为 8 月以来最大涨幅；时点偏早（11-05），仅作背景，非隔夜行情。",
+          "sources": [
+            { "name": "Kitco", "url": "https://www.kitco.com/news/off-the-wire/2026-11-05/gold-hits-2-week-high-dollar-yields-oil-fall-after-us-midterms", "date": "11-05", "note": "时点偏旧" }
+          ]
+        },
+        {
+          "title": "市场焦虑聚焦科技贸易，AI 板块估值受关注",
+          "summary": "中期选举后，市场关注 AI 交易能否维持投资人热情；本期未取到结构化行情，故不列具体点位。",
+          "sources": [
+            { "name": "财经综述视频", "url": "https://www.youtube.com/watch?v=3GHg0maol8U", "date": "11-22", "note": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "COP31 气候谈判在土耳其无果而终",
+          "summary": "周日谈判未达成政治协议，加勒比、斐济等代表团表达对进程停滞的失望，中国保持低调参与。",
+          "image": "https://www.usnews.com/object/image/000001a2-0523-d30e-a3bf-5ff72eb10000/tag%3Areuters.com%2C2026%3Anewsml_LYNXNPEMAL0J5%3A12026-11-22T211415Z_1_LYNXNPEMAL0J5_RTROPTP_3_CLIMATE-COP31.JPG?update-time=1795382055000&size=responsive640",
+          "imageCredit": "REUTERS/Murad Sezer",
+          "sources": [
+            { "name": "Reuters via U.S. News", "url": "https://www.usnews.com/news/world/articles/2026-11-22/analysis-can-climate-diplomacy-build-on-the-collapse-of-cop31", "date": "11-22", "note": "" }
+          ]
+        },
+        {
+          "title": "特朗普签行政令：联邦承包商与国会往来须先报白宫",
+          "summary": "指令要求承包商就国会问询咨询政府，并可扣留被认为属特权的信息，引发权力分立争议。",
+          "sources": [
+            { "name": "NPR／AP 引白宫行政令", "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress", "date": "11-21", "note": "" }
+          ]
+        },
+        {
+          "title": "美国中期选举余波：数个众议院席位仍未定，AI 政治广告受关注",
+          "summary": "民主党已取得国会控制权但部分席位仍在计票；本周期 AI 生成政治广告花费据报超 1.37 亿美元。",
+          "image": "https://images.firstpost.com/uploads/2026/10/AI-ads-us-midterms-rep-Reuters-2026-10-b5feae2402d03da88a8670eb19343c69-1200x675.jpg?im=Resize,width=720,aspect=fit,type=normal",
+          "imageCredit": "Reuters",
+          "sources": [
+            { "name": "Firstpost 引 Wesleyan 项目／Reuters", "url": "https://www.firstpost.com/explainers/us-midterms-2026-ai-political-ads-cross-137-million-but-who-is-regulating-them-14055463.html", "date": "", "note": "单源待核" }
+          ]
+        },
+        {
+          "title": "美国接连发生大范围科技中断；马斯克与 MAGA 保持距离",
+          "summary": "官方称近期多次 outage 互不相关但质疑未平；另有报道称马斯克在中期选举后与 MAGA 拉开距离。",
+          "sources": [
+            { "name": "NPR", "url": "https://www.npr.org/2026/11/22/nx-s1-6047557/university-of-notre-dame-professor-on-the-recent-spate-of-tech-outages", "date": "11-22", "note": "" }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "时点：2026-11-23 09:00 CST；窗口：最近约 24 小时（偏隔夜欧美）",
+    "scope": "检索范围：web_search、advanced_search(exa/tavily)、x_search 降级二手",
+    "gaps": "缺口：X 直连不可达，社交热议为二手转述；last30days 本机 Reddit 站点搜索 HTTP 403，通常仅 Hacker News 可用，本期时间预算内未跑引擎、未列社区声音；无 API key，部分源受墙。证据分级：官方主域全文 ＞ 官方纪要/通讯社 ＞ 多源交叉 ＞ 媒体转述；标注「单源待核／观点／时点偏旧」者请谨慎采信。空主题不补旧闻。"
+  }
+}
