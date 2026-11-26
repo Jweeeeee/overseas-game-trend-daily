@@ -1,0 +1,169 @@
+{
+  "id": "2026-11-26-morning",
+  "type": "早报",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26 09:05 CST",
+  "window": "2026-11-25 09:00 — 2026-11-26 09:00（重点隔夜欧美）",
+  "highlights": [
+    "休闲手游数据面密集：Monopoly Go 累计玩家支出破 80 亿美元，Sensor Tower 指韩国市场下载降 38% 但内购仍稳在约 50 亿美元/年——成熟市场从买量转向留存与变现。",
+    "美国 10 月核心 PCE 同比升至 3.3%（9 月 3.1%），为三年最高；市场定价 12 月加息概率约 97%，金价跌至一年多低位。",
+    "白宫宣布对中国、欧盟等新一轮全面关税；OpenAI 公布 GPT-6 内在蛋白质设计能力。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "Monopoly Go 累计玩家支出突破 80 亿美元",
+          "summary": "Scopely 向 pocketgamer.biz 确认该里程碑在 2026 年夏季达成（2025 年为 60 亿），上线三年多。AppMagic 估算其 2026 年 Google Play 净收入超 4 亿美元、App Store 净收入 4.77 亿美元，均不含 Scopely 自有 D2C 渠道。",
+          "image": "https://i0.wp.com/mobilegamer.biz/wp-content/uploads/2023/12/monopoly-go.jpg?resize=820%2C273&ssl=1",
+          "imageCredit": "mobilegamer.biz",
+          "sources": [
+            {"name": "Mobilegamer.biz 数据摘要（11-25）", "url": "https://mobilegamer.biz/data-digest-monopoly-go-hits-8bn-block-blast-and-vita-mahjong-lead-ad-charts-korea-stats-more/", "date": "2026-11-25", "note": "Scopely 官方口径 + AppMagic 估算，已抓原文核实"},
+            {"name": "PocketGamer.biz 原始报道", "url": "https://www.pocketgamer.biz/monopoly-go-surpasses-8-billion-in-lifetime-player-spending/", "date": "2026-11-25", "note": "一手采访"}
+          ]
+        },
+        {
+          "title": "韩国手游市场：下载降 38%，内购收入仍稳在约 50 亿美元/年",
+          "summary": "Sensor Tower《2026 韩国游戏市场报告》：下载量从 2021 年 5.4 亿降至 2026 年 3.9 亿，但 IAP 收入稳定在约 50 亿美元/年。报告称这标志市场成熟，增长逻辑从获客转向留存、再参与、live ops 与更有效的变现；Nexon、111%、Supercent 在海外增长最快。",
+          "image": "https://i0.wp.com/mobilegamer.biz/wp-content/uploads/2026/11/korean-market.png?resize=500%2C216&ssl=1",
+          "imageCredit": "Sensor Tower / mobilegamer.biz",
+          "sources": [
+            {"name": "Sensor Tower 报告原文", "url": "https://sensortower.com/blog/state-of-gaming-in-korea-2026-report", "date": "2026-11-25", "note": "数据机构原报告"},
+            {"name": "Mobilegamer.biz 转述", "url": "https://mobilegamer.biz/data-digest-monopoly-go-hits-8bn-block-blast-and-vita-mahjong-lead-ad-charts-korea-stats-more/", "date": "2026-11-25", "note": "已抓原文核实"}
+          ]
+        },
+        {
+          "title": "Flow 类解谜成新风口：Q3 混合休闲解谜前十占六席",
+          "summary": "AppMagic 统计 2026 年已有 570+ 款产品在商店描述中使用 pixel/flow/loop 关键词；Q3 混合休闲解谜 IAP 前十中 6 款为 Pixel Flow 核心玩法。Onesoft《Colony Flow》跃升 400 多名至第七，Q3 IAP 1370 万美元、950 万安装；3D 化的《Cube Land》环比增长 1226%。",
+          "image": "https://i0.wp.com/mobilegamer.biz/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-17.05.48.png?resize=546%2C284&ssl=1",
+          "imageCredit": "AppMagic / mobilegamer.biz",
+          "sources": [
+            {"name": "AppMagic 研究原文", "url": "https://appmagic.rocks/research/Hybridcasual-Puzzles-Q32026", "date": "2026-11-24", "note": "数据机构原报告"},
+            {"name": "Mobilegamer.biz 数据摘要", "url": "https://mobilegamer.biz/data-digest-monopoly-go-hits-8bn-block-blast-and-vita-mahjong-lead-ad-charts-korea-stats-more/", "date": "2026-11-25", "note": "已抓原文核实"}
+          ]
+        },
+        {
+          "title": "万代《DIGIMON ALYSION》全球 183 国上线",
+          "summary": "万代将数码宝贝集换式卡牌搬到手机：免费+内购，支持日/英/简中/繁中/韩五种语言，预注册突破 45 万，官方称 11 月 24 日正式上线并开启上线纪念对战活动。",
+          "image": "https://mmx.prnewswire.com/media/MS2042949/%E8%A7%A3%E7%A6%81%E6%B8%B8%E7%8E%A9-DIGIMON_KV.jpg?id=OA3100671&p=medium",
+          "imageCredit": "BANDAI / PR Newswire",
+          "sources": [
+            {"name": "PR Newswire 万代官方新闻稿", "url": "https://www.prnewswire.com/news-releases/digimon-alysion-officially-launches-in-183-countries-and-regions-worldwide-302950574.html", "date": "2026-11-25", "note": "官方主域，已抓原文核实"}
+          ]
+        },
+        {
+          "title": "广告创意投放榜：Block Blast 领跑 iOS，Vita Mahjong 系占安卓前三",
+          "summary": "SocialPeta 最新广告创意榜显示，Block Blast 在 iOS 在投创意数第一；安卓端 Oakever/Vita/Learnings 系包揽前三（Vita Mahjong、Amaze Go、Meowdoku），Block Blast 第四。对休闲买量方向，麻将/合成类素材投放强度值得跟踪。",
+          "sources": [
+            {"name": "Mobilegamer.biz 数据摘要（引 SocialPeta）", "url": "https://mobilegamer.biz/data-digest-monopoly-go-hits-8bn-block-blast-and-vita-mahjong-lead-ad-charts-korea-stats-more/", "date": "2026-11-25", "note": "二手转述，SocialPeta 原榜为 LinkedIn 链接，未独立核实"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI",
+      "items": [
+        {
+          "title": "OpenAI 公布 GPT-6 模型的「内在蛋白质设计」能力",
+          "summary": "OpenAI 官方页面（11-24）称 GPT-6 系列模型展现出可在实验室中设计具结合能力蛋白质的内在能力，并给出关键发现。页面为动态渲染、抓取仅返回标题级内容，细节待原文进一步核实。",
+          "sources": [
+            {"name": "OpenAI 官方页面", "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/", "date": "2026-11-24", "note": "官方主域；动态加载，仅标题级取证"}
+          ]
+        },
+        {
+          "title": "Google DeepMind 发布 Mass Spec Skills for Antigravity",
+          "summary": "DeepMind 官方博客（11-25）介绍「从质谱到结构」：用 Antigravity 的 Mass Spec Skills 根据质谱图推断分子结构，作者为团队多名研究员。属于 skill 化的科研工作流实践。",
+          "sources": [
+            {"name": "Google DeepMind 官方博客", "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/", "date": "2026-11-25", "note": "官方主域"}
+          ]
+        },
+        {
+          "title": "MCP 服务器可随工具一并发布 Skills（Claude / Claude Code 公测）",
+          "summary": "聚合简报称 Google 宣布 Skills over MCP、Tasks 与 Elicitation 机制，MCP server 可随工具一起发布 skills，已在 Claude 与 Claude Code 公开测试，Shopify、HubSpot、Atlassian 参与。该条为聚合站单源，待官方确认。",
+          "sources": [
+            {"name": "SEN-X Daily Briefing", "url": "https://senx.ai/news/2026-11-25-daily-ai-news", "date": "2026-11-25", "note": "单源待核，未找到 Google/Anthropic 官方原文"}
+          ]
+        },
+        {
+          "title": "Anthropic 发布 Claude Opus 4.5，定价 5/25 美元每百万 token",
+          "summary": "AI 快讯站报道 Claude Opus 4.5 于 11-25 上线，输入/输出定价分别为每百万 token 5 美元与 25 美元。属媒体转述、单源待核，官方页面未在本窗口内直接取证。",
+          "sources": [
+            {"name": "AI Weekly 快讯", "url": "https://aiweekly.co/alerts/anthropic-launches-claude-opus-45-at-525-per-million", "date": "2026-11-25", "note": "单源待核"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件",
+      "items": [
+        {
+          "title": "美国 10 月核心 PCE 同比 3.3%，三年最高；12 月加息预期升温",
+          "summary": "美国经济分析局（BEA）11-25 发布 10 月个人收入与支出报告。核心 PCE 同比由 9 月 3.1% 升至 3.3%，环比连续三个月 +0.3%，为三年来最高；CNBC 标题口径的整体指标为 3.8%。市场将其解读为几乎锁定 12 月加息，并增加后续加息可能。",
+          "sources": [
+            {"name": "BEA 官方新闻稿", "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026", "date": "2026-11-25", "note": "官方主域"},
+            {"name": "CNBC 报道", "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html", "date": "2026-11-25", "note": "媒体原文；整体/核心口径差异已标注"},
+            {"name": "Yahoo Finance / ING THINK", "url": "https://finance.yahoo.com/economy/policy/article/pce-inflation-heats-up-solidifying-a-fed-rate-hike-in-december-with-more-likely-next-year-143016844.html", "date": "2026-11-25", "note": "媒体交叉"}
+          ]
+        },
+        {
+          "title": "黄金跌至一年多低位，核心 PCE 公布后再探多月低点",
+          "summary": "金价在前一交易日跌逾 2% 后于 11-25 企稳等待通胀数据；核心 PCE 3.3% 公布后 XAU/USD 再跌约 0.7%，触及约 3426 美元的多月低位。加息预期（12 月约 97% 概率）与美元阶段性走弱交织，贵金属承压。",
+          "sources": [
+            {"name": "CNBC 黄金报道", "url": "https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html", "date": "2026-11-25", "note": "媒体原文（正文抓取被截断，取索引摘要）"},
+            {"name": "FXStreet 黄金分析", "url": "https://www.fxstreet.com/news/gold-sinks-despite-falling-us-yields-as-core-pce-hits-33-202611251933", "date": "2026-11-25", "note": "媒体，含具体价位"}
+          ]
+        },
+        {
+          "title": "美元回落，日元与瑞郎走强；市场定价 12 月加息概率约 97%",
+          "summary": "CNBC 外汇报道：美元周三在关键数据前喘息，日元、瑞郎在 AI 主导的震荡交易中走强。交易员对 12 月美联储加息的定价约 97%，为本次 PCE 数据之前的最后一项关键数据。",
+          "sources": [
+            {"name": "CNBC 外汇报道", "url": "https://www.cnbc.com/2026/11/25/forex-dollar-currency-federal-reserve-euro.html", "date": "2026-11-25", "note": "媒体原文"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "白宫推出对中国、欧盟等新一轮全面关税",
+          "summary": "NBC 直播报道白宫 11-25 宣布广泛新关税，政府官员为军方在爱荷华引爆库存叠氮化铅的决定辩护；Reuters 摘要称特朗普在中期选举失利后仍推进保护主义议程。具体税目与生效时间待官方文本。",
+          "sources": [
+            {"name": "NBC News 直播", "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/live-updates-white-house-tariffs-china-european-union-rcna611183", "date": "2026-11-25", "note": "媒体直播，正文抓取超时，取索引摘要"},
+            {"name": "Reuters 摘要（devdiscourse 转载）", "url": "https://www.devdiscourse.com/article/international/4012032-reuters-us-domestic-news-summary", "date": "2026-11-25", "note": "转述，正文抓取超时"}
+          ]
+        },
+        {
+          "title": "特朗普称将会见密歇根当选参议员 El-Sayed 讨论「TrumpCare」",
+          "summary": "《华盛顿邮报》11-25 13:10 EST 报道，特朗普表示将会见这位民主党当选参议员讨论医保方案，但未说明会面时间。延续本窗口前一日 The Hill 对 El-Sayed 医保计划的报道。",
+          "sources": [
+            {"name": "The Washington Post", "url": "https://www.washingtonpost.com/politics/2026/11/25/trump-says-he-will-meet-el-sayed-over-trumpcare/", "date": "2026-11-25", "note": "媒体，索引标题级"},
+            {"name": "The Hill（前一日原文）", "url": "https://thehill.com/policy/healthcare/6238566-el-sayed-floats-trump-care-plan/", "date": "2026-11-24", "note": "媒体原文，前一期已核实"}
+          ]
+        },
+        {
+          "title": "黄仁勋国会作证前，共和党议员要求 FBI/CIA 提交国家安全说明",
+          "summary": "NPR《Morning Edition》11-25 报道，在英伟达 CEO 黄仁勋回归并准备国会作证之际，有共和党议员要求在问询前先获得 FBI 与 CIA 的国家安全答复。NBC 直播中副总统万斯称黄仁勋「不需要赦免」。",
+          "sources": [
+            {"name": "NPR Morning Edition", "url": "https://www.npr.org/programs/morning-edition/nx-s1-6014164/morning-edition-for-november-25-2026", "date": "2026-11-25", "note": "官方媒体，索引标题级"},
+            {"name": "NBC News 直播", "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/live-updates-white-house-tariffs-china-european-union-rcna611183", "date": "2026-11-25", "note": "媒体直播"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-26 09:05 CST；覆盖 2026-11-25 09:00 — 2026-11-26 09:00（重点隔夜欧美）",
+    "scope": "检索：web_search + exa(timeRange=day) 四主题分批、web_fetch 原文核实；四分区共 15 条（游戏 5 / AI 4 / 财经 3 / 时政 3）",
+    "gaps": "本期未跑 last30days 社区声音（本机 Reddit 站点搜索 HTTP 403，仅 Hacker News 可用）。NBC 直播与 Reuters 摘要正文抓取超时、OpenAI 页面动态加载，均仅取标题/索引级并已标注。MCP Skills、Claude Opus 4.5 为聚合站单源待核。核心 PCE 的整体 3.8%/核心 3.3% 为不同口径，已分列。金价 3426 美元为 FXStreet 报道的即期报价，非官方结算价。"
+  }
+}
