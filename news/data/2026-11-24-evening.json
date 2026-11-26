@@ -1,0 +1,150 @@
+{
+  "id": "2026-11-24-evening",
+  "type": "晚报",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24 18:08 CST",
+  "window": "2026-11-24 09:00–18:00（Asia/Shanghai）",
+  "highlights": [
+    "手游双上线：Capcom《怪物猎人 Rise》今日登陆 Netflix Games 移动端，Klei 授权《饥困荒野》国服同日开服",
+    "黄仁勋 11-23 复职后，美国国会两党 11-24 要求公开作证，追问中国关联与特朗普干预",
+    "现货黄金回落约 0.3% 至 3619.95 美元/盎司；纽约联储主席称通胀仍过高，不排除必要时连续加息"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游 / 引擎 / 大厂）",
+      "items": [
+        {
+          "title": "《怪物猎人 Rise》今日登陆 Netflix Games 移动端，iOS/Android 订阅免费玩",
+          "summary": "Capcom 2021 年 Switch 独占的 3A 作品今日（11-24）通过 Netflix Games 上线手机端，含原付费/DLC 任务，针对触屏做了自动恢复药等适配；Netflix 订阅者免费。对休闲手游的启示：成熟 3A IP + 订阅制打包正在成为买量之外的获客通道。",
+          "image": "https://media.pocketgamer.biz/images/142289/90290/monster-hunter-rise-magnamalo-trailer_l1200.jpg",
+          "imageCredit": "PocketGamer.biz",
+          "sources": [
+            {"name": "PocketGamer.biz", "url": "https://www.pocketgamer.biz/monster-hunter-rise-coming-to-mobile-via-netflix-games-on-november-24th/", "date": "2026-11-19 报道 / 11-24 上线", "note": "行业媒体，上线日期具体"}
+          ]
+        },
+        {
+          "title": "Klei 正版授权《饥困荒野》国服今日上线，预约破 2500 万",
+          "summary": "盛趣游戏猪人工作室研发、腾讯发行的《饥荒：联机版》改编生存手游 11-24 正式开服，国内预约量超 2500 万。属于内容型产品集中爆发窗口的一员，可作为生存/休闲品类长线运营的对照样本。",
+          "image": "https://d.ifengimg.com/w121_h75_q90/x0.ifengimg.com/res/2026/CB780AC2AE2F66A24E46ED54B6FB4D0ACB5D3A4B_size69_w640_h360.jpg",
+          "imageCredit": "凤凰科技 / IT之家",
+          "sources": [
+            {"name": "凤凰科技（IT之家）", "url": "https://tech.ifeng.com/c/8xPSHTzDg4A", "date": "2026-10-21 定档 / 11-24 上线", "note": "媒体转述定档信息"}
+          ]
+        },
+        {
+          "title": "Unity 高管回应收购传闻：「猜测和标题很常见」",
+          "summary": "Game Developer 报道 Unity 高层就市场并购传闻表态；同社 Q2 2026 营收约 5.46 亿美元、同比 +24%，净亏损收窄至约 2300 万美元，同时仍在重组（含关闭法国业务）。引擎层整合预期仍是下半年开发者关注的变量。",
+          "image": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt90eb331f6bb48824/6afb47b4abec29e73692ac10/unityrumorfeatured.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+          "imageCredit": "Game Developer",
+          "sources": [
+            {"name": "Game Developer", "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors", "date": "页面未标日期", "note": "单源待核，日期未标；此条不冒充当日新事件"}
+          ]
+        },
+        {
+          "title": "Epic 确认 UE6 从一开始就移除 Blueprints 与 Actor Gameplay Framework",
+          "summary": "Game Developer 报道 Epic 不再计划在虚幻引擎 6 中默认包含蓝图与 Actor 框架。若影响开发工作流，属于中期引擎迁移风险，做跨平台（含休闲手游）技术选型时应提前评估，而非影响当日发行决策。",
+          "sources": [
+            {"name": "Game Developer", "url": "https://www.gamedeveloper.com/programming/unreal-engine-6-to-remove-blueprints-and-actor-gameplay-framework-from-the-beginning", "date": "页面未标日期", "note": "单源待核；非当日事件，作趋势跟踪"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 治理）",
+      "items": [
+        {
+          "title": "国会两党追责黄仁勋：要求公开作证，追问中国关联与特朗普干预",
+          "summary": "黄仁勋 11-23 在特朗普表态后全票复职英伟达 CEO，11-24 三位众议院共和党委员会主席发联合声明要求其兑现作证承诺；民主党亦要求说明与被认为是中国情报人员的商业女性关系。这是 AI 芯片治理与出口管制的直接政策风险点。",
+          "sources": [
+            {"name": "POLITICO", "url": "https://www.politico.com/newsletters/inside-congress/2026/11/24/congress-vows-to-put-the-screws-to-huang-01181377", "date": "2026-11-24 04:50 EST", "note": "多源交叉：AP / Business Insider 同向"},
+            {"name": "AP News", "url": "https://apnews.com/article/nvidia-jensen-huang-48a005a1415549e69ec69400024aa797", "date": "2026-11-24", "note": "两党愤怒、要求问责"},
+            {"name": "Business Insider", "url": "https://www.businessinsider.com/congress-demands-testimony-nvidia-ceo-jensen-huang-reinstatement-trump-2026-11", "date": "2026-11-24", "note": "要求Interview与公开作证"}
+          ]
+        },
+        {
+          "title": "Google Gemini 4 Hydrogen 面向「日常编码与智能体工作流」",
+          "summary": "Google 博客介绍 Gemini 4 Hydrogen（11-12 发布、11-16 更新），主打快速迭代、仓库级编码与调试、交互网页与多模态工作流，四档思考级别，可与 Carbon/Argon 搭配。属本窗口外的近期背景，作工作流参考，不冒充当日发布。",
+          "sources": [
+            {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/", "date": "2026-11-12 / 更新 11-16", "note": "官方主域；非当日窗口"}
+          ]
+        },
+        {
+          "title": "本窗口未检索到可信的重大 AI 模型首发",
+          "summary": "检索范围：web_search（英/中）、AI Release Tracker。最近实质发布 GLM-5.4 已在 11-23 早报收录；AI Release Tracker 对 GPT-6.2 Astra（11-30）、Claude Fable 5.2（11-30）、Gemini 4 Neon（12-03）的预计均为第三方节奏推测，非官方公告，不按新闻计入。",
+          "sources": [
+            {"name": "AI Release Tracker", "url": "https://aireleasetracker.com/", "date": "查询于 2026-11-24", "note": "第三方追踪，预测非公告"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（黄金 / 利率 / 股市）",
+      "items": [
+        {
+          "title": "现货黄金回落 0.3% 至 3619.95 美元/盎司，美金期货跌 0.9%",
+          "summary": "路透 11-24 0635 GMT 报价：现货金 3619.95 美元/盎司，期金 3619.00 美元，市场等待美国通胀数据。此前一周金价曾自 3500–3520 美元支撑位反弹，短线波动放大，属 CFD/现货参考价而非官方结算价。",
+          "sources": [
+            {"name": "Reuters", "url": "https://www.reuters.com/world/india/gold-edges-up-bargain-buying-after-selloff-us-inflation-data-awaited-2026-11-24/", "date": "2026-11-24 06:35 GMT", "note": "原始报道；标题为金微跌，正文含报价"},
+            {"name": "Mitrade", "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-nvidia-pmi-natixis-warns", "date": "2026-11-24", "note": "单源参考，非官方价"}
+          ]
+        },
+        {
+          "title": "纽约联储主席威廉姆斯：通胀仍过高，不排除必要时连续加息",
+          "summary": "媒体转述威廉姆斯表态，称需对通胀保持前瞻性、降低物价仍有工作要做，不排除 FOMC 必要时连续加息；市场解读为 12 月加息概率微升。方向与常规宽松预期相反，属媒体二手转述，需以后续官方讲话为准。",
+          "sources": [
+            {"name": "搜狐（转述）", "url": "https://m.sohu.com/a/1105529910_222256", "date": "2026-11-24", "note": "媒体转述，单源待核"},
+            {"name": "财闻网", "url": "https://www.caiwennews.com/article/1714314.shtml", "date": "2026-11-24", "note": "12月加息概率微升、金饰价格上调"}
+          ]
+        },
+        {
+          "title": "美股盘中反弹：标普 +4.06%、纳指100 +6.11%（非收盘）",
+          "summary": "Nasdaq/Barchart 盘中快照显示标普500 +4.06%、道指 +2.06%、纳指100 +6.11%，为前一交易日急跌后的反抽。注意这是盘中实时数据（非收盘价），页面会滚动更新；上周五三大指数分别收跌 3.70%/1.93%/5.61%。",
+          "sources": [
+            {"name": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/market-activity/stocks", "date": "2026-11-24 盘中", "note": "盘中快照，非收盘；页面实时更新"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "欧盟在联合国安理会要求俄罗斯立即、无条件停火",
+          "summary": "欧盟代表在安理会会议上谴责俄方对乌克兰能源设施与黑海商船的打击，要求俄方接受全面、立即、无条件停火。会议发生于周一（11-23），相关报道 11-24 发布；EEAS 官方声明页可查原文措辞。",
+          "sources": [
+            {"name": "EEAS 欧盟官方", "url": "https://www.eeas.europa.eu/delegations/un-new-york/eu-statement-un-security-council-maintenance-peace-and-security-ukraine-7_en?s=63", "date": "会议 2026-11-23", "note": "官方主域，原文措辞"},
+            {"name": "Kyiv Post", "url": "https://www.kyivpost.com/post/90979", "date": "2026-11-24", "note": "媒体交叉"},
+            {"name": "News Today", "url": "https://newstodaynet.com/2026/11/24/eu-demands-immediate-ukraine-ceasefire-at-unsc/", "date": "2026-11-24", "note": "媒体交叉"}
+          ]
+        },
+        {
+          "title": "安纳多卢通讯社 11-24 晨间简报：地区冲突与人道议题持续",
+          "summary": "安纳多卢每日晨间简报（11-24 版）汇集苏丹、利比亚等地的冲突与人道动态。作为全球突发大事的固定入口跟踪，具体数字以原文为准，此处仅标注来源与时点，不补写未经核实的细节。",
+          "sources": [
+            {"name": "Anadolu Agency", "url": "https://aa.com.tr/en/world/morning-briefing-nov-24-2026/4135240", "date": "2026-11-24", "note": "原始简报入口"}
+          ]
+        },
+        {
+          "title": "美国中期选举后续：民主党夺回众议院，特朗普归因伊朗问题",
+          "summary": "ABC7 直播更新显示民主党在 2026 中期选举中夺回国会，被视为对特朗普的否定；特朗普对结果回应「我认为部分原因是伊朗」。选举结果本身发生于 11-22（已在此前简报覆盖），此条仅记录 11-24 新增表态，属直播页单源待核。",
+          "sources": [
+            {"name": "ABC7 News", "url": "https://abc7news.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/", "date": "2026-11-24 更新", "note": "直播页，单源待核"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-24 18:08 CST；窗口 09:00–18:00 Asia/Shanghai",
+    "scope": "检索通道：web_search（英/中分批）、research/web_fetch 原文核实、AI Release Tracker；社区声音（last30days）本期省略（本机 Reddit 403、预算优先保主检索）",
+    "gaps": "① 游戏板块当日重大发布集中在手游上线，引擎类两条页面未标日期、作趋势跟踪不冒充当日；② Gemini 4 Hydrogen 为 11-12 旧闻，明确标注；③ 威廉姆斯加息表态为媒体转述单源待核；④ 美股为盘中快照非收盘；⑤ 特朗普中期选举表态为直播页单源；⑥ X 直连不可达、无 API key，美国热议未做一手社交取证；⑦ 公网 GitHub Pages 仍返回 404（Pages 未启用），请用本地站 http://192.168.31.66:8765"
+  }
+}

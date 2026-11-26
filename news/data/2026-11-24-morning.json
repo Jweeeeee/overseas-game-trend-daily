@@ -1,0 +1,155 @@
+{
+  "id": "2026-11-24-morning",
+  "type": "早报",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24 09:05 CST",
+  "window": "2026-11-23 09:00 至 2026-11-24 09:00（重点隔夜欧美：美东周一 11-23 交易日）",
+  "highlights": [
+    "英伟达董事会全票请回黄仁勋，股价单日暴涨约31%，带动美股创2025年4月以来最佳单日",
+    "《GTA VI》发售首日吸金破30亿美元，改写游戏首发纪录（第三方估算，口径待核）",
+    "COP31 气候谈判破裂，欧盟等拒绝最终协议"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "《GTA VI》发售首日吸金破 30 亿美元，改写游戏首发纪录",
+          "summary": "Sensor Tower 数据显示《GTA VI》11 月 19 日发售，发售前已产生约 23.6 亿美元收入；CNN 报道单日流水突破 30 亿美元。Forbes 另一口径估算发售日约 1905 万套、18.4 亿美元。两家口径差异较大，属第三方估算，待进一步核实。",
+          "sources": [
+            {"name": "CNN（11-20）", "url": "https://www.cnn.com/2026/11/20/media/gta-vi-launch-sales-numbers", "date": "2026-11-20", "note": "Sensor Tower 数据，单日破 30 亿美元"},
+            {"name": "Forbes（11-19）", "url": "https://www.forbes.com/sites/conormurray/2026/11/19/grand-theft-auto-vi-passes-18-billion-in-revenue-on-release-day-eclipses-the-odysseys-box-office-total/", "date": "2026-11-19", "note": "估算 1905 万套 / 18.4 亿美元，口径待核"}
+          ]
+        },
+        {
+          "title": "全球手游玩家破 31 亿，下载量同比降约 25%",
+          "summary": "2026 年移动游戏用户规模达 31 亿，但下载量下滑约 25%，行业重心从拉新转向存量变现；混合变现（广告+IAP）采用率过去一年增长超 50%。对休闲手游的买量与变现设计有直接参考。",
+          "image": "https://applovin.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0pqtth7y%2Fproduction%2F9e59049c831a0fa350e9884635f3ee266a2f885a-1440x810.jpg&w=3840&q=75",
+          "imageCredit": "AppLovin",
+          "sources": [
+            {"name": "Shattered.io", "url": "https://shattered.io/mobile-gaming-3-1-billion-players-downloads-fall-25-percent-2026/", "date": "2026-11", "note": "行业统计，第三方"},
+            {"name": "Sett（广告变现指南）", "url": "https://www.sett.ai/content/mobile-game-advertising/", "date": "2026-11", "note": "引用 AdMob 混合变现增长数据"}
+          ]
+        },
+        {
+          "title": "AppLovin：约 37% 移动玩家通过广告发现新产品",
+          "summary": "AppLovin 报告称其推荐系统覆盖游戏外电商，相关买家中 71% 当天完成购买。厂商自有数据，单源待核，仅作休闲手游 UA/变现趋势参考。",
+          "sources": [
+            {"name": "AppLovin 官方博客", "url": "https://www.applovin.com/en/blog/mobile-gaming-consumer", "date": "2026-11", "note": "厂商自有数据，单源待核"}
+          ]
+        },
+        {
+          "title": "GDC《2026 游戏行业现状》报告预览：裁员仍是焦点",
+          "summary": "GDC 年度报告预览显示，行业裁员仍是最受关注议题之一。目前仅放出预览，完整数据待正式发布。",
+          "sources": [
+            {"name": "GDC", "url": "https://gdconf.com/state-of-the-game-industry-november-2026/", "date": "2026-11", "note": "报告预览，完整数据待发布"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI",
+      "items": [
+        {
+          "title": "智谱 GLM-5.4 被列为当前最新前沿模型",
+          "summary": "AI Release Tracker 记录 GLM-5.4 于 11 月 23 日发布，为其追踪的最新前沿模型（具备视觉与百万 token 上下文，昨日晚报已详报，此处仅提示）。",
+          "sources": [
+            {"name": "AI Release Tracker", "url": "https://aireleasetracker.com/", "date": "2026-11-23", "note": "模型发布时间线"},
+            {"name": "新浪财经", "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztfnh0627708.shtml", "date": "2026-11-23", "note": "GLM-5.4 发布报道"}
+          ]
+        },
+        {
+          "title": "凌晨 AI 快讯速览（聚合站，单源待核）",
+          "summary": "Emergent 聚合站 11 月 24 日凌晨快讯：Google 搜索 AI 模式整合 Drive 与 Wallet；DeepMind 量子算法 Agent 引入形式化验证；IBM Streamhouse 时序模型上线 Hugging Face。均为聚合快讯，待官方源确认。",
+          "sources": [
+            {"name": "Emergent News（聚合）", "url": "https://emergent.sh/news/anthropic-google-openai-prepare-new-ai-models", "date": "2026-11-24", "note": "聚合快讯，单源待核"}
+          ]
+        },
+        {
+          "title": "传 Anthropic 在重大数学难题上取得进展",
+          "summary": "BBC 中文热读提及「Anthropic 或许已解决重大数学难题：黎曼猜想」。目前为媒体标题级信息，无官方论文/公告佐证，标「待回应」，不作为既成结论。",
+          "sources": [
+            {"name": "BBC 中文", "url": "https://www.bbc.com/zhongwen/articles/cqvg2947xvx0o/simp", "date": "2026-11-23", "note": "标题级信息，待官方确认"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量）",
+      "items": [
+        {
+          "title": "黄仁勋回归，英伟达单日暴涨约 31%，美股创 2025 年 4 月来最佳单日",
+          "summary": "美东 11 月 23 日，英伟达董事会全票恢复黄仁勋 CEO/总裁职务，白宫背书、特朗普称「正确而恰当的决定」。股价盘前一度涨超 30%、收涨约 31% 至 165 美元附近；美股大盘收复上周暴跌一半以上。（北京时间隔夜）",
+          "image": "https://s.yimg.com/lo/mysterio/api/c97fd062dde5b8064b9f68392a70f0f271259364efc6851caf9fd1400d86e0c0/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fb5d9c1eb-655f-4099-a2ef-d164a4e64506",
+          "imageCredit": "AP Photo / Yahoo Finance",
+          "sources": [
+            {"name": "BBC 中文（11-23）", "url": "https://www.bbc.com/zhongwen/articles/cqvg2947xvx0o/simp", "date": "2026-11-23", "note": "董事会全票复职、白宫背书"},
+            {"name": "AP（11-23）", "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91", "date": "2026-11-23", "note": "美股收复上周跌幅过半"},
+            {"name": "Yahoo Finance（11-23）", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html", "date": "2026-11-23", "note": "收涨约31%、三大指数最佳单日"}
+          ]
+        },
+        {
+          "title": "纳斯达克中国金龙指数收涨 2.44%，阿里涨超 6%",
+          "summary": "东方财富报道，隔夜中概股随美股反弹走强，纳斯达克中国金龙指数收涨 2.44%，阿里巴巴涨超 6%。",
+          "sources": [
+            {"name": "东方财富（11-24）", "url": "https://finance.eastmoney.com/a/202611243937780979.html", "date": "2026-11-24", "note": "中概股收盘"}
+          ]
+        },
+        {
+          "title": "黄金测试 3500 美元支撑后反弹，此前创近 3 个月新低",
+          "summary": "上周五标普 500 跌 3.7% 进入回调区间，自 10 月 6 日峰值蒸发约 8 万亿美元；金价周一开盘创 9 月 2 日以来最低，测试 3500 美元支撑后反弹。属第三方参考价/分析，非官方定盘价。",
+          "sources": [
+            {"name": "StoneX（11-23）", "url": "https://www.stonex.com/en-gb/news-and-analysis/gold-rallies-after-3500-support-test-but-can-bulls-re-take-control-2026-11-23/", "date": "2026-11-23", "note": "第三方技术分析"},
+            {"name": "Yahoo Finance（11-23）", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-november-23-2026-gold-prices-opened-at-lowest-point-since-9225-122415220.html", "date": "2026-11-23", "note": "金价参考价，非定盘价"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "COP31 气候谈判破裂，欧盟等拒绝最终协议",
+          "summary": "11 月 22 日土耳其安塔利亚，联合国气候大会因欧盟等认为草案力度不足而破裂，土耳其/澳大利亚主席国提交的最终文本被拒。路透称谈判失败反映各国在全球变暖议题上的分歧。",
+          "sources": [
+            {"name": "Reuters / MSN（11-22）", "url": "https://www.msn.com/en-us/news/other/cop31-climate-talks-collapse-as-eu-and-others-reject-deal/ar-AA2hYEWW", "date": "2026-11-22", "note": "路透转载"}
+          ]
+        },
+        {
+          "title": "美国中期选举：民主党凭北卡获胜拿下 1992 年来最大众议院多数",
+          "summary": "北卡罗来纳州胜选后，民主党取得 1990 年代初以来最大的众议院多数席位，成为美国当前政治焦点之一。",
+          "sources": [
+            {"name": "Global News（11-23）", "url": "https://globalnews.ca/news/12161699/us-midterms-democrats-house-majority/", "date": "2026-11-23", "note": "美媒转述"}
+          ]
+        },
+        {
+          "title": "特朗普在司法部发表「保护家庭」讲话",
+          "summary": "特朗普 11 月 23 日在美国司法部就「保护家庭」议题发表讲话，官方视频已发布。",
+          "sources": [
+            {"name": "YouTube（官方视频）", "url": "https://www.youtube.com/watch?v=7UbkH_CYEy0", "date": "2026-11-23", "note": "官方讲话视频"}
+          ]
+        },
+        {
+          "title": "乌克兰无人机击沉利比亚海域俄军舰；布鲁塞尔反紧缩抗议",
+          "summary": "泽连斯基称乌克兰无人机在利比亚海岸击沉一艘俄军舰；同日布鲁塞尔数千人上街抗议紧缩措施，比利时政府就明年预算僵持。（AP 11-23 头条汇总）",
+          "sources": [
+            {"name": "AP Top Stories（11-23）", "url": "https://apnews.com/video/ap-top-stories-november-24-b08e8983a71f4372aa0de64266547582", "date": "2026-11-23", "note": "当日头条视频汇总"}
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-24 09:05 CST（Asia/Shanghai）",
+    "scope": "覆盖 11-23 09:00 至 11-24 09:00，重点隔夜欧美（美东周一交易日）。检索：web_search/research 多引擎；头条抓原文核实；结构化行情优先，本期未单独调 westockdata。",
+    "gaps": "游戏板块本窗口无重磅首发，收录 11-19~11-20 数据并已标注日期；GTA VI 单日收入媒体口径差异较大（18.4 亿 vs 30 亿美元），标第三方估算待核；Emergent 凌晨快讯与 Anthropic 数学进展均为单源/标题级，标待核；last30days 本机 Reddit 搜索 HTTP 403，本期未跑引擎，无社区声音。"
+  }
+}
