@@ -1,0 +1,282 @@
+{
+  "id": "2026-11-27-morning",
+  "type": "早报",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27 09:05 CST",
+  "window": "2026-11-26 09:00 — 2026-11-27 09:00（重点隔夜欧美）",
+  "highlights": [
+    "隔夜主线：美国核心 PCE 升至 3.3% 强化加息预期，金价跌至一年多低点后企稳于约 3550 美元/盎司；特朗普政府拟对 14 个贸易伙伴加征新关税。",
+    "游戏侧两条主线——AI 开发工具（Ludo.ai 文本生成瓦片）与 IP 联动（Monopoly Go×复联、Roblox 音乐授权）；对欧美休闲手游的方向判断有参考价值。",
+    "AI 侧：OpenAI 合并 Chat/Work 统一计量、FCC 放行 SpaceX 百万 AI 卫星、Gemini 4 多智能体自产 6 篇数学论文。",
+    "科技线：美国收紧中国云端算力租赁、B300 现货涌入海外转售；Anthropic 股价破发，算力价格战信号显现。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "Ludo.ai 推出 AI 瓦片集生成器，文本描述直出 2D 地图",
+          "summary": "AI 工具厂商 Ludo.ai 上线 Tileset Generator，开发者用文字描述即可生成成套 2D 地图瓦片。面向独立与小团队降低关卡美术门槛，值得做休闲手游时跟踪其可用性。",
+          "image": "https://media.pocketgamer.biz/images/142383/90365/ludoai_s320.jpg",
+          "imageCredit": "PocketGamer.biz",
+          "sources": [
+            {
+              "name": "PocketGamer.biz",
+              "url": "https://www.pocketgamer.biz/ludoai-launches-ai-powered-tileset-generator-for-2d-game-development/",
+              "date": "2026-11-26",
+              "note": "行业媒体，原文核实"
+            }
+          ]
+        },
+        {
+          "title": "Roblox 与 PRS for Music 签音乐授权，2027 起向创作者付版税",
+          "summary": "Roblox 与英国音乐版权组织 PRS for Music 达成协议，词曲作者、作曲者与出版商将从 2027 年起获得版税。平台 UGC 音乐合规再进一步，对含音乐/UGC 元素的休闲产品 licensing 成本有参考。",
+          "image": "https://media.pocketgamer.biz/images/142385/90366/roblox-prs_s470.jpg",
+          "imageCredit": "PocketGamer.biz",
+          "sources": [
+            {
+              "name": "PocketGamer.biz",
+              "url": "https://www.pocketgamer.biz/roblox-signs-music-licensing-agreement-with-prs-for-music/",
+              "date": "2026-11-26",
+              "note": "行业媒体，标题+摘要核实"
+            }
+          ]
+        },
+        {
+          "title": "《World War Heroes》合并 1 亿+玩家账号并重塑匹配机制",
+          "summary": "发行方披露把超 1 亿玩家账号并入统一体系，并据此重做匹配。对大 DAU 长线产品的账号合并与匹配工程是可复用样本。",
+          "image": "https://media.pocketgamer.biz/images/142395/90368/mikhail-orlo-world-war-heroes_l1200.jpg",
+          "imageCredit": "PocketGamer.biz",
+          "sources": [
+            {
+              "name": "PocketGamer.biz",
+              "url": "https://www.pocketgamer.biz/how-world-war-heroes-merged-100m-player-accounts-and-reshaped-matchmaking/",
+              "date": "2026-11-26",
+              "note": "列表页置顶稿，具体日期以页面为准"
+            }
+          ]
+        },
+        {
+          "title": "《Monopoly Go》×《复联4：末日》联动赛季上线",
+          "summary": "Scopely 与漫威合作的 Doomsday Go 赛季 11 月 25 日开启，持续至 2027 年 1 月 27 日，带来新盾牌、代币、骰子与小游戏。头部休闲产品的 IP 联动打法值得跟踪。",
+          "image": "https://media.pocketgamer.biz/images/142338/90344/monopoly-go-doomsday-go-collab_s470.jpg",
+          "imageCredit": "PocketGamer.biz / Scopely",
+          "sources": [
+            {
+              "name": "Scopely 官方",
+              "url": "https://www.scopely.com/en/news/monopoly-go-marvel-games-unite-for-doomsday-season-avengers-doomsday",
+              "date": "2026-11-23",
+              "note": "官方稿，原文核实"
+            },
+            {
+              "name": "Variety",
+              "url": "https://variety.com/2026/gaming/news/gaming-news-roundup-week-of-nov-23-1236956394/",
+              "date": "2026-11-25",
+              "note": "媒体交叉"
+            }
+          ]
+        },
+        {
+          "title": "GTA6 上线带动系列手游下载约 4 倍，Vice City 单周新增 110 万",
+          "summary": "Sensor Tower 数据显示 GTA6 发售周带动手游端 Vice City 新增约 110 万下载、系列手游下载约 4 倍；同期美国手游日支出创年内新低。主机大作对移动端的虹吸与外溢并存。",
+          "image": "https://media.pocketgamer.biz/images/142378/90363/vice-c-ity_s890.jpg",
+          "imageCredit": "PocketGamer.biz",
+          "sources": [
+            {
+              "name": "PocketGamer.biz",
+              "url": "https://www.pocketgamer.biz/gta-6-launch-results-in-4x-downloads-boost-for-series-mobile-games/",
+              "date": "2026-11-25",
+              "note": "媒体转述 Sensor Tower 数据，日期标 11-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI · 模型 / 产品 / 工作流",
+      "items": [
+        {
+          "title": "OpenAI 合并 ChatGPT 的 Chat 与 Work，统一计量下重度用户更快触顶",
+          "summary": "OpenAI 将聊天与工作体验并入同一用量计量，重度用户可能更早遇到上限，指向资源分配与产品整合。依赖 ChatGPT 做工作流的团队需留意额度变化。",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+              "date": "2026-11-25",
+              "note": "经聚合源转述，原文链接附此，待原文核实"
+            }
+          ]
+        },
+        {
+          "title": "FCC 批准 SpaceX 部署最多 100 万颗 AI 卫星（Starmind）",
+          "summary": "美国 FCC 批准 SpaceX「Starmind」计划，可部署至多 100 万颗搭载 AI 芯片的卫星，被视为大型太空数据中心项目首次获监管放行。",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+              "date": "2026-11-26",
+              "note": "经聚合源转述，原文链接附此，待原文核实"
+            }
+          ]
+        },
+        {
+          "title": "Google Gemini 4 多智能体系统自动生成并发表 6 篇数学论文",
+          "summary": "Google Research 用基于 Gemini 4 的多智能体系统 Cogentic 自主生成并发布 6 篇数学论文，涵盖质因数分解等方向，展示 AI 在数学探索中的新潜力。",
+          "sources": [
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers/",
+              "date": "2026-11-26",
+              "note": "经聚合源转述，原文链接附此，待原文核实"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic 用 Claude 把 Messages API 从 Python 迁到 Rust，CPU 降约 70%",
+          "summary": "Anthropic 分享用 Claude 将 Messages API 由 Python 迁移至 Rust 的过程，无服务中断、CPU 占用降约 70%。是 AI 辅助大型工程改造的实战样本。",
+          "sources": [
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/news/20261126-anthropic-claude-api-rust/",
+              "date": "2026-11-26",
+              "note": "经聚合源转述，原文链接附此，待原文核实"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "📈",
+      "title": "财经大事件（三子模块）",
+      "items": [
+        {
+          "title": "【AI&科技线】美国收紧中国云端算力租赁，B300 现货涌入海外转售",
+          "summary": "CNBC 报道，NVIDIA 芯片买家被要求排除中国租赁方才能采购 GPU；受出口管制影响，数千张 B300 涌入海外转售市场，但高端芯片长期稀缺格局未变。另 S&P Global 提示 NVIDIA 治理风险或致评级下调。",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+              "date": "2026-11-26",
+              "note": "原文标题+摘要级"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+              "date": "2026-11-26",
+              "note": "原文标题级"
+            }
+          ]
+        },
+        {
+          "title": "【AI&科技线】Anthropic 股价跌破 IPO 价，算力价格战信号显现",
+          "summary": "据科技新報/雷峰网，Anthropic 股价跌破发行价，市场重估其商业模式；SpaceX 下调 Blackwell GPU 现货租赁价 20%-35%，Anthropic 约 5 万张 H200 合约或不续签。",
+          "sources": [
+            {
+              "name": "科技新報",
+              "url": "https://technews.tw/2026/11/26/anthropic-faces-ai-price-war-crisis/",
+              "date": "2026-11-26",
+              "note": "媒体转述，未经一手财报核实"
+            },
+            {
+              "name": "IT之家",
+              "url": "https://www.ithome.com/1/032/716.htm",
+              "date": "2026-11-26",
+              "note": "媒体转述，单源待核"
+            }
+          ]
+        },
+        {
+          "title": "【石油&黄金】金价跌至约 3550 美元/盎司附近，加息预期升温",
+          "summary": "美国 10 月核心 PCE 升至 3.3%（整体 3.8%）、Q3 GDP 上修至 4.3%，强化美联储加息预期。金价在前一交易日跌至一年多低点后周四企稳，FXStreet 报约 3550 美元/盎司。口径为现货/CFD 参考价，对比基准为前一交易日收盘；英文原文站 Cloudflare 拦截仅取标题级。油价方面 ING 称延续涨势，但未拿到具体报价。",
+          "sources": [
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-declines-to-near-3-550-amid-hawkish-fed-expectations-202611262337",
+              "date": "2026-11-26",
+              "note": "标题级，正文 Cloudflare 拦截"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/gold-federal-reserve-interest-rate-metals.html",
+              "date": "2026-11-26",
+              "note": "标题+摘要级"
+            },
+            {
+              "name": "ING THINK",
+              "url": "https://think.ing.com/articles/the-commodities-feed-gold-slumps-below-3500-oz/",
+              "date": "2026-11-26",
+              "note": "油价标题级，无具体报价"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "特朗普政府拟对 14 个贸易伙伴加征新关税，中国拟议税率 40%",
+          "summary": "NPR 报道，新关税依 Section 301 提出，覆盖中国、日本、欧盟等 14 个伙伴：中国拟议 40%（谈判达成或降至 20%）、越南 35%、其余 20%-25%，贸易代表称数月内可生效。对欧美市场投放与供应链成本有直接影响。",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7008x3942+0+730/resize/1100/quality/50/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F80%2F90%2Fb02c4a6c41399f6a7b78decc00a0%2Fbitinit-appleharvest-072726-andreastarr-54.JPG",
+          "imageCredit": "NPR / Andrea Starr",
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
+              "date": "2026-11-26",
+              "note": "原文核实"
+            }
+          ]
+        },
+        {
+          "title": "美联邦法官阻止特朗普挑战 ABC 牌照，认定报复讽刺言论违宪",
+          "summary": "地区法官 AliKhan 颁布初步禁令，驳回政府撤销 ABC/迪士尼地方牌照的请求，判决大量援引特朗普对 ABC 的公开表态与 FCC 主席人选言论。",
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+              "date": "2026-11-26",
+              "note": "原文核实"
+            }
+          ]
+        },
+        {
+          "title": "美国爱荷华陆军弹药厂引爆不稳定叠氮化铅，EPA 排查铅污染",
+          "summary": "陆军以受控爆炸销毁数千磅不稳定叠氮化铅；EPA 部署约 300 人采样空气、土壤与水体，初检未在空气中检出铅，居民要求独立监测，结果数日出炉。",
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
+              "date": "2026-11-26",
+              "note": "原文核实"
+            }
+          ]
+        },
+        {
+          "title": "联合国裁定解雇巴勒斯坦雇员基于未经证实的以色列指控",
+          "summary": "法庭裁定联合国因未经证实的指控解雇巴勒斯坦雇员，判决质疑将援助人员与哈马斯相关联的证据，并指加沙人道行动因此受损。",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/theguardian/2026/nov/26",
+              "date": "2026-11-26",
+              "note": "标题级，正文未抓，单源待核"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "2026-11-27 09:05 CST",
+    "scope": "覆盖窗口 2026-11-26 09:00 — 11-27 09:00（重点隔夜欧美）；检索通道 web_search + advanced_search(exa, timeRange=day) 分批 + web_fetch 抓原文核实；本轮未跑 last30days。早报按规则不出【A股行情】子模块。",
+    "gaps": "① 黄金/油价为现货/CFD 参考价，FXStreet 正文 Cloudflare 拦截仅取标题级，油价无具体报价；② AI 区多条来自聚合源 iyooo 转述，原始链接已附但未逐篇原文核实（标聚合待核）；③ 游戏区 World War Heroes 稿日期以页面为准，Monopoly Go/GTA6 为 11-23~25 稿已标日期；④ 时政区 Guardian 一条仅标题级、单源待核；⑤ 本窗口未检索到可信的社区增量（本机 Reddit 403、last30days 仅 HN 可用），已跳过；⑥ 本窗口未发现值得单列的全球突发大事以外增量，空项不硬凑。"
+  }
+}
