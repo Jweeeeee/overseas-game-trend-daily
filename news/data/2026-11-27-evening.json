@@ -1,0 +1,286 @@
+{
+  "id": "2026-11-27-evening",
+  "type": "晚报",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27 18:12 CST",
+  "window": "2026-11-27 09:00 — 18:00（当日，重点欧美隔夜延续与A股收盘）",
+  "highlights": [
+    "A股放量大涨：沪指+3.73%、深成指+7.24%、创业板指+11.61%，两市成交近2万亿、放量6824亿，芯片产业链爆发。",
+    "AI×游戏开发：Unity Asset Library CLI 与 Unreal 5.9 Fab 工具集相继向 AI 智能体开放资产库，单个资产可精准导入。",
+    "黄金自一年多低点反弹、美元回落；特朗普释放愿与民主党合作信号，但新关税撤销路径艰难。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "腾讯关联公司全资收购《Merge Mansion》开发商 Metacore，休闲赛道整合继续",
+          "summary": "GMT EIGHT 11-27 报道，一家腾讯关联公司已全资收购合并类休闲手游《Merge Mansion》的开发商 Metacore，延续大厂对休闲赛道的加码。此前 11-26 已有类似口径报道（Supercell 全资收购），本次为媒体转述、尚未见交易方官方公告，标单源待核。",
+          "sources": [
+            {
+              "name": "GMT EIGHT",
+              "url": "https://gmteight.com/flash/detail/1565732",
+              "date": "2026-11-27",
+              "note": "媒体转述，单源待核；与此前 11-26 报道口径相近"
+            }
+          ]
+        },
+        {
+          "title": "Smilegate《Dead Account: Two Blue Flames》在四国开启提前上线",
+          "summary": "Smilegate 通过 PR Newswire 于 11-27 10:50（CST）宣布新作在四个国家进入 early release。官方新闻稿口径，具体国家与玩法细节以原文为准。",
+          "sources": [
+            {
+              "name": "PR Newswire（官方稿）",
+              "url": "https://www.prnewswire.com/apac/news-releases/smilegate-launches-dead-account--two-blue-flames-in-early-release-across-4-countries-302951436.html",
+              "date": "2026-11-27",
+              "note": "厂商官方新闻稿"
+            }
+          ]
+        },
+        {
+          "title": "《数码宝贝 Alysion》全球上线，预约破 45 万",
+          "summary": "Z1G 11-27 报道，万代南梦宫新作 Digimon Alysion 在 iOS/Android 全球上线，预约数超过 45 万。游戏媒体单源，标单源待核。",
+          "sources": [
+            {
+              "name": "Z1G",
+              "url": "https://zero1.gg/news/digimon-alysion-worldwide-launch-450000-pre-registrations",
+              "date": "2026-11-27",
+              "note": "游戏媒体单源，待核"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】Unity 与 Unreal 同期向 AI 智能体开放资产库：可只取单个资产、agent 直接安装",
+          "summary": "Indie Tooling 11-27 原文核实：Unity 于 11-23 将 Asset Library 插件开放测试，附 `unity assetlibrary` CLI（search/show/import 等九条命令，支持 --format json、--non-interactive、--dry-run，官方点名 Claude Code/Codex/Grok Build/Google Antigravity 可驱动），可从素材包中只导入单个模型或音效；Unreal 5.9 Preview 2 新增 Fab 工具集，让 agent 搜索 Fab、浏览素材库并安装免费或已购资产，Unreal MCP 默认监听 127.0.0.1:8000。两者均标注实验性；许可证不变，EULA 仍禁止未经授权用素材训练模型。对美术/音效流水线是可上手的工具级变化。",
+          "image": "https://indietooling.com/_astro/unity-unreal-agents-asset-library.DLjj1kfM_1nJpeh.webp",
+          "imageCredit": "Unity Technologies（经 Indie Tooling 原文配图）",
+          "sources": [
+            {
+              "name": "Indie Tooling（原文核实）",
+              "url": "https://indietooling.com/posts/unity-unreal-agents-asset-library",
+              "date": "2026-11-27",
+              "note": "媒体原文，逐条对过 Unity 文档与 Epic 预览说明"
+            },
+            {
+              "name": "Unity 官方博客",
+              "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents",
+              "date": "2026-11-23",
+              "note": "厂商官方，CLI 与 agent 驱动说明"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】Ludo.ai 更新 Sprite Generator：五视角、八方向生成与动画精灵图",
+          "summary": "Ludo.ai What's New 页面 11-24 更新：新版 Sprite Generator 替代 Forge/Forge Pixel，可从文本或自有素材生成精灵并动画化，支持五个相机视角、八个方向，直接导出引擎可用 sprite sheet。厂商更新页口径，未见独立第三方交叉，标单源待核。",
+          "sources": [
+            {
+              "name": "Ludo.ai What's New（厂商更新页）",
+              "url": "https://ludo.ai/whats-new",
+              "date": "2026-11-24",
+              "note": "厂商自述，单源待核；窗口内为持续更新而非当日首发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 研究 / 监管）",
+      "items": [
+        {
+          "title": "Anthropic 推出更经济的 Opus 5.5，主打企业场景降本",
+          "summary": "AK&M 11-27 12:50 引 Anthropic 新闻稿称推出 Opus 5.5，以更低成本处理广泛业务任务。目前仅见该媒体转述、未见 Anthropic 官方页面原文，标单源待核，价格与基准数据不填入。",
+          "sources": [
+            {
+              "name": "AK&M",
+              "url": "https://www.akm.ru/eng/news/anthropic-has-introduced-a-more-economical-opus-5-5-model-/",
+              "date": "2026-11-27",
+              "note": "媒体转述新闻稿，单源待核"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI 修正 GPT-6.2 计费错误：Astra 与 Sol 限额将提前 40% / 25% 触顶",
+          "summary": "The Neuron 与 Epoch 0 的 11-27 日报均记载：OpenAI 修复 GPT-6.2 使用量核算错误，Astra、Sol 相对上周分别提前约 40%、25% 到达用量上限，符合条件的部分订阅者获一次额度重置。两家均为聚合日报，属二手来源，标聚合待核；官方公告原文未取到。",
+          "sources": [
+            {
+              "name": "The Neuron",
+              "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/",
+              "date": "2026-11-27",
+              "note": "聚合日报，二手"
+            },
+            {
+              "name": "Epoch 0",
+              "url": "https://epoch0.tokyo/daily/2026-11-27/en",
+              "date": "2026-11-27",
+              "note": "聚合日报，二手"
+            }
+          ]
+        },
+        {
+          "title": "Google 定 2027-02-01 起 Workspace 智能体不再直接调用 REST API",
+          "summary": "AIToolsRecap 11-27 日报列为本周要点之一：Google 将 2027 年 2 月 1 日设为 Workspace agents 停止直接调用 REST API 的时点。单源日报转述，未见官方原文核实，标单源待核。",
+          "sources": [
+            {
+              "name": "AIToolsRecap",
+              "url": "https://aitoolsrecap.com/Blog/ai-news-november-27-2026",
+              "date": "2026-11-27",
+              "note": "聚合日报单源，待核"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量）",
+      "items": [
+        {
+          "title": "【AI&科技线】国常会再提稳市与国产算力；英伟达暂停向东南亚四国发运 AI 服务器",
+          "summary": "产业与政策视角：国务院常务会议一个月内两提稳定资本市场，提出发挥国家队稳市作用、优化汇金类平准基金功能、引导中长期资金入市；《广东省算力发展“十五五”规划》提出优先使用国产算力芯片。另据每日经济新闻 11-27 全球科技早参，英伟达暂停向马来西亚、新加坡、泰国、印尼发运搭载其芯片的服务器。两条均来自主流财经媒体原文/早参，属产业与资本市场口径，与通用模型发布区分。",
+          "sources": [
+            {
+              "name": "每日经济新闻（收评原文）",
+              "url": "https://www.nbd.com.cn/articles/2026-11-27/4661224.html",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "每日经济新闻（全球科技早参）",
+              "url": "https://www.nbd.com.cn/articles/2026-11-27/4660445.html",
+              "date": "2026-11-27",
+              "note": "媒体早参，英伟达发货消息"
+            }
+          ]
+        },
+        {
+          "title": "【石油&黄金】黄金自一年多低点反弹至约 3600 美元附近，布伦特升破 97 美元",
+          "summary": "口径与基准：现货/CFD 参考价，非 COMEX 结算价。CNBC 11-27（美东 11-26 22:50 发布）称金价周五自本周早些时候触及的一年多低点反弹，受美国假期交投清淡、AI 引发的市场紧张缓解推动；FXStreet 11-27 09:48 GMT 称黄金在 3600 美元附近徘徊、较 8 月高点低约 22%，美元在感恩节后难以获得买盘。原油方面 Saxo 11-27 提到布伦特升破 97 美元。相对昨日收盘的精确涨跌幅原文未给全，此处不硬填数字，标数据缺口；实时价格请以交易时段行情为准。",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/27/gold-metals-silver-markets-federal-reserve.html",
+              "date": "2026-11-27",
+              "note": "标题与导语核实，正文抓取被截断"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/forex-today-us-dollar-struggles-to-find-demand-after-thanksgiving-gold-extends-rebound-202611270737",
+              "date": "2026-11-27",
+              "note": "标题级，07:37 GMT"
+            },
+            {
+              "name": "FXStreet（周评）",
+              "url": "https://www.fxstreet.com/analysis/week-ahead-pivotal-us-data-ahead-but-equities-will-set-the-tone-202611270948",
+              "date": "2026-11-27",
+              "note": "标题级，3600 美元与 8 月高点对比"
+            },
+            {
+              "name": "Saxo Bank",
+              "url": "https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026",
+              "date": "2026-11-27",
+              "note": "标题级，布伦特 97 美元"
+            }
+          ]
+        },
+        {
+          "title": "【A股行情】放量大涨：沪指 +3.73%、创业板指 +11.61%，两市成交近 2 万亿放量 6824 亿",
+          "summary": "以 11-27 当日收盘为锚（交易日）。涨跌幅：沪指 +3.73%（重上 3600 点，收报约 3606）、深成指 +7.24%（约 10814）、创业板指 +11.61%、科创 50 +15.07%、科创综指 +14.21%。两市全天成交额 19997.94 亿元、较上一交易日放量 6824.17 亿元（沪市 9297.77 亿、深市 10700.17 亿）；全市场超 5300 只个股上涨、超 400 只涨停。主力净流入前列为融资融券 +917.1 亿、芯片概念 +634.7 亿；高股息红利股逆势下挫（中国神华、中国石化、中国移动）。每经原文核实；指数点位为媒体收评口径，非交易所逐笔数据。",
+          "image": "https://nbd-luyan-1252627319.file.myqcloud.com/nbd_thirdparty_post/QdNsSeiC1H%E6%88%AA%E5%B1%8F2026-11-27%2016.41.08.png",
+          "imageCredit": "每日经济新闻收评配图",
+          "sources": [
+            {
+              "name": "每日经济新闻（收评原文核实）",
+              "url": "https://www.nbd.com.cn/articles/2026-11-27/4661224.html",
+              "date": "2026-11-27",
+              "note": "原文核实，指数/成交额/主力资金口径"
+            },
+            {
+              "name": "金十数据（成交额）",
+              "url": "https://flash.jin10.com/detail/20261127150127930800",
+              "date": "2026-11-27",
+              "note": "快讯，两市成交额 19997.94 亿"
+            },
+            {
+              "name": "中国经济网（收评）",
+              "url": "http://finance.ce.cn/stock/gsgdbd/202611/t20261127_3310286.shtml",
+              "date": "2026-11-27",
+              "note": "标题级，创业板 +11.61%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "特朗普中期选举后释放愿与民主党合作信号；民主党撤销新关税路径艰难",
+          "summary": "Yahoo/Exa 11-27 08:38 头条称特朗普在中期选举失利后表示愿与民主党合作。另一方面，Reuters 11-25 报道其对 14 个贸易伙伴（含中国、欧盟）提出新关税以替代被最高法院推翻的旧税；《华盛顿时报》11-26 分析指民主党虽有意撤销，但面对总统否决权与两年政治拉锯，路径艰难。多源交叉，属美国当前主流议题；关税条款细节以官方文本为准。",
+          "sources": [
+            {
+              "name": "Yahoo News（经 Exa）",
+              "url": "https://www.yahoo.com/news/politics/articles/trump-signals-willingness-democrats-midterm-021835410.html",
+              "date": "2026-11-27",
+              "note": "头条转述"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/3fec1b0a85a0/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/",
+              "date": "2026-11-25",
+              "note": "原文标题级，属窗口前背景"
+            },
+            {
+              "name": "The Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/nov/26/democrats-face-rocky-path-repealing-trump-tariffs-despite-post/",
+              "date": "2026-11-26",
+              "note": "分析，窗口前背景"
+            }
+          ]
+        },
+        {
+          "title": "特朗普指控政府机构在中期选举前发布“假”经济数据，要求调查",
+          "summary": "Exa 新闻聚合显示，11-26 起多家媒体（累计 379 家）报道特朗普指称政府机构在中期选举前发布虚假经济数据、要求调查“大规模阴谋”，11-27 09:37 UTC 仍有更新。当前仅取到聚合页，未见一手官方声明原文，标聚合待核。",
+          "sources": [
+            {
+              "name": "Exa 新闻聚合（含 Yahoo Finance 转述）",
+              "url": "https://exa.ai/library/news/story/qnhd0p6vc5qdyydyy81r5hf0b",
+              "date": "2026-11-27",
+              "note": "聚合二手，待核"
+            }
+          ]
+        },
+        {
+          "title": "核心 PCE 通胀推升加息押注，美伊冲突进入第 273 天，避险情绪升温",
+          "summary": "Investing.com 11-27 分析称，核心 PCE 数据公布后市场对美联储加息的押注上升，叠加美伊冲突进入第 273 天，金价周末前面临风险；FXStreet 亦将本周金价走势归因于偏鹰派的美联储表态。属市场分析与地缘背景，非官方结论，标单源/分析级。",
+          "sources": [
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/analysis/gold-faces-weekend-risk-as-fed-rate-bets-and-iran-tensions-rattle-markets-200692396",
+              "date": "2026-11-27",
+              "note": "市场分析，单源"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-struggles-to-extend-bounce-from-15-month-low-as-fed-hike-bets-usd-uptick-cap-gains-202611260450",
+              "date": "2026-11-26",
+              "note": "市场分析，窗口前背景"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-27 18:12 CST，覆盖 09:00—18:00 当日窗口。",
+    "scope": "检索范围：web_search（exa，timeRange=day，四主题分批）+ web_fetch 原文核实（Indie Tooling / 每日经济新闻 / CNBC 等）；社区声音本期省略（无人值守预算优先主检索与网站发布）；结构化金融数据来自媒体收评原文，未调用 westockdata 逐项校验。",
+    "gaps": "缺口：①Gold/WTI 相对昨日收盘的精确涨跌幅原文未给全，未硬填数字；②Anthropic Opus 5.5、OpenAI 计费修正、Google Workspace 时点均为聚合/媒体二手，官方原文未取到，已逐条标注；③Metacore 收购与 Digimon Alysion 为媒体单源，未见交易方/厂商官方公告；④x_search 直连不可达，本期未补美国社交热议；⑤【AI×游戏开发】Ludo.ai 条目为 11-24 厂商更新页、非当日首发，已如实标注。窗口内无可信更新的子项不编造补位。",
+    "publish": "网站数据文件是主交付；公网主站 https://Jweeeeee.github.io/overseas-game-trend-daily/news/ （overseas-game-trend-daily@gh-pages/news/），兜底源 news-daily-brief@main/data/，本地站 http://192.168.31.66:8765 。"
+  }
+}
