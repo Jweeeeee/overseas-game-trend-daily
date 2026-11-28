@@ -1,0 +1,288 @@
+{
+  "id": "2026-11-28-morning",
+  "type": "早报",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28 09:05 CST",
+  "window": "2026-11-27 09:00 — 11-28 09:00（重点隔夜欧美动态）",
+  "highlights": [
+    "隔夜地缘升温：美军在阿曼湾再度瘫痪一艘试图突破伊朗港口封锁的商船，霍尔木兹油轮遇袭推升供应担忧。",
+    "AI×游戏开发：Cascadeur 2026.3 加入 MetaHuman 面部动画与 AI 云工具，MCP/Python API 让编码智能体直接编辑动画。",
+    "美国关税新框架落地细节：对华上限 20%（谈崩升至 40%）、覆盖 14 个伙伴，中方称保留反制权；黄金反弹至约 3650 美元。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "PocketGamer.biz 本周新游汇总：怪猎 Rise 登陆 Netflix、Everything is Crab、Field Day、Azur Promilia 等",
+          "summary": "PocketGamer.biz 11-27 23:40（CST）盘点本周新游：Capcom《Monster Hunter Rise》经 Netflix Games 上手游（重做触控、新增自动恢复键）；roguelite《Everything is Crab》登陆 iOS/Android（160+ 进化、含 PC 内容）；《Field Day》四人混战撤离动作；《Azur Promilia》开放世界 RPG 已在日韩中台上线、英文版瞄准 2027 夏。厂商与媒体原文核实。",
+          "image": "https://media.pocketgamer.biz/images/142406/90370/new-release-roundup-271126_l1200.jpg",
+          "imageCredit": "PocketGamer.biz 原文配图",
+          "sources": [
+            {
+              "name": "PocketGamer.biz（原文核实）",
+              "url": "https://www.pocketgamer.biz/new-release-roundup-monster-hunter-rise-netflix-digimon-alysion-field-day-and-more/",
+              "date": "2026-11-27",
+              "note": "11-27 15:40 UTC 发布，逐条列开发商与玩法"
+            }
+          ]
+        },
+        {
+          "title": "Mobilegamer.biz 新游速递：Digimon Alysion、怪猎 Rise、Field Day、Cruise Chefs 集中上线",
+          "summary": "Mobilegamer.biz 11-27 10:37 UTC 的每周新游 digest 收录本周全球首发、软启动与定档，含《Digimon Alysion》《Monster Hunter Rise》《Field Day》《Cruise Chefs》等。媒体汇总，单源待核，具体上线地区以厂商公告为准。",
+          "sources": [
+            {
+              "name": "Mobilegamer.biz",
+              "url": "https://mobilegamer.biz/new-game-digest-digimon-alysion-monster-hunter-rise-field-day-cruise-chefs-more/",
+              "date": "2026-11-27",
+              "note": "每周新游汇总，单源"
+            }
+          ]
+        },
+        {
+          "title": "Zynga 推出《Clay Jam》定格黏土手游，由 Fat Pebble 开发",
+          "summary": "媒体报道 Zynga 于 11-27 21:12（CST）推出由 Fat Pebble 制作的定格黏土风手游《Clay Jam》。仅见单一媒体稿件、未见 Zynga 官方新闻稿，标单源待核。",
+          "sources": [
+            {
+              "name": "True News Psba Tribune",
+              "url": "https://news.psba.org/zynga-launches-clay-jam-00316436/",
+              "date": "2026-11-27",
+              "note": "单源转述，待核"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】Cascadeur 2026.3 加入 MetaHuman 面部动画与 AI 云工具，智能体可直接编辑动画",
+          "summary": "厂商博客与 gamedevaitools 本周列表（11-26 更新）显示：Cascadeur 2026.3 带来 MetaHuman 面部动画 Alpha（可导入并绑定 MetaHuman、经 Live Link 同时串流身体/面部/摄像机）、面向尾巴与触手生物的 IK Chains；早期 AI Cloud 提供文生动作、视频动捕、网格与绑定生成（消耗积分、测试阶段）；Mocap Cleaning 降抖动，MCP 与 Python API 更新让 Claude Code 等智能体创建或编辑动画。属本周更新、非当日首发，单源（厂商博客经聚合核实）。",
+          "sources": [
+            {
+              "name": "Cascadeur 官方博客",
+              "url": "https://cascadeur.com/blog/general/cascadeur-2026-3-mcp-facial-animation-creature-animation",
+              "date": "2026-11-26",
+              "note": "厂商原文，功能逐条列明"
+            },
+            {
+              "name": "gamedevaitools 本周新工具",
+              "url": "https://gamedevaitools.com/new/",
+              "date": "2026-11-28",
+              "note": "聚合站本周列表，核实入口，单源"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】本周 3D/视频生成工具更新：Tripo H3.5、Scenario Fable 5.2 3D、Higgsfield MAGI-2",
+          "summary": "gamedevaitools 本周（11-23 至 11-29）汇总：Tripo H3.5 Preview（11-25）图/文生 3D，50 万至 500 万三角面、更适合英雄资产而非直接入引擎；Scenario 加入 Claude Fable 5.2 3D（11-24），返回具名部件和可编辑 Blender 文件、可由 Scenario MCP 调用；Higgsfield 上线 Sand.ai MAGI-2（11-24），一次生成最长 30 秒 1080p 带同步声音的片段，适合预告片/剧情镜头。均为本周厂商更新、非当日首发，聚合站单源。",
+          "sources": [
+            {
+              "name": "gamedevaitools 本周新工具",
+              "url": "https://gamedevaitools.com/new/",
+              "date": "2026-11-28",
+              "note": "聚合站本周列表，非当日首发，单源"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 / 工作流 / 研究 / 监管）",
+      "items": [
+        {
+          "title": "Lablup 发布 AI:GO 2.0：本地运行语言/视觉/图像/语音模型，带文件级智能体与 OS 沙箱",
+          "summary": "Lablup（KOSDAQ:0147B0）11-27 官方新闻稿：AI:GO 2.0 在单机运行语言、视觉、图像与语音模型，无需云端；Cowork 智能体在用户指定的工作文件夹内直接读写文件，Squad 可编排多角色；对 Python/命令执行原生集成基于 Microsoft Execution Containers 的 OS 沙箱，默认阻断沙箱外文件与网络。免费下载，支持 macOS 15+/Windows 10-11/Linux。厂商官方原文核实。",
+          "image": "https://cdn.lablup.com/lablup_aigo_2_0_chat_home_800566a57a.png",
+          "imageCredit": "Lablup 官方新闻稿配图",
+          "sources": [
+            {
+              "name": "Lablup 官方新闻稿",
+              "url": "https://www.lablup.com/press/2026-11-lablup-launches-ai-go-v2",
+              "date": "2026-11-27",
+              "note": "厂商原文核实"
+            }
+          ]
+        },
+        {
+          "title": "AWS 宣布 Amazon Neptune Graph Sessions 正式可用：面向智能体、可缩容至零并自动恢复",
+          "summary": "AWS 11-27 What's New：Neptune Graph Sessions 是一种为智能体设计的计算模式，内存与 CPU 自动伸缩并可缩容至零后自动恢复。官方公告，属云服务能力更新。",
+          "sources": [
+            {
+              "name": "AWS What's New",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available/",
+              "date": "2026-11-27",
+              "note": "厂商官方公告"
+            }
+          ]
+        },
+        {
+          "title": "Sber 开源 GigaChat 4：7080 亿参数、百万 token 上下文",
+          "summary": "ToolSift 11-27 日报称俄罗斯 Sber 开放 GigaChat 4 权重，规模 7080 亿参数、百万 token 上下文，前代 GigaChat 3.5 分为 instant 与 reasoning 两个检查点。聚合日报转述，未见 Hugging Face 官方页原文，标聚合待核；参数与许可细节不扩写。",
+          "sources": [
+            {
+              "name": "ToolSift.ai 日报",
+              "url": "https://toolsift.ai/llm-news/2026-11-27/",
+              "date": "2026-11-27",
+              "note": "聚合二手，待核"
+            }
+          ]
+        },
+        {
+          "title": "Yandex 开源 80B MoE 模型（Apache 2.0）",
+          "summary": "AITOP 11-27 日报称 Yandex 发布 AliceAI-Foundation-80B-A3B-Base，从零训练的混合专家模型，总参数 800 亿、每 token 约 30 亿激活，采用 Apache 2.0 许可。聚合日报单源，未见官方模型卡原文，标单源待核。",
+          "sources": [
+            {
+              "name": "AITOP 日报",
+              "url": "https://aitop.news/daily/2026-11-27",
+              "date": "2026-11-27",
+              "note": "聚合单源，待核"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量）",
+      "items": [
+        {
+          "title": "【AI&科技线】美国芯片管制升级：英伟达停运东南亚四国，Fitch 警告亚洲数据中心投资放缓、S&P 将英伟达列入下调观察",
+          "summary": "产业与资本市场视角：Reuters/Investing 11-27 引金融时报报道，英伟达已要求制造伙伴停止向马来西亚、新加坡、泰国、印尼发运搭载其 AI 芯片的服务器（美国商务部要求云厂商取得出口许可证）；SCMP 称新加坡政府正与本地企业沟通。The Hindu 11-27 引 Fitch 称管制将放慢亚洲数据中心投资，紧随 S&P 因治理担忧将英伟达评级列入下调观察。均为主流财经媒体原文/早参，与通用模型发布区分。",
+          "sources": [
+            {
+              "name": "Investing.com（转 Reuters）",
+              "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5053574",
+              "date": "2026-11-27",
+              "note": "媒体转述 FT，原文标题级"
+            },
+            {
+              "name": "The Hindu（Fitch）",
+              "url": "https://www.thehindu.com/sci-tech/technology/us-chip-curbs-will-slow-asia-data-centre-investment-fitch-says/article71749270.ece",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "SCMP",
+              "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375994/singapore-reaches-out-local-firms-amid-reports-nvidia-chip-shipment-halt",
+              "date": "2026-11-27",
+              "note": "原文标题级"
+            }
+          ]
+        },
+        {
+          "title": "【AI&科技线】美国 PCE 通胀达 3.8%、核心 3.3%，市场加息押注升温",
+          "summary": "worldmacronews 11-27 市场简报（截至 21:15 IST）列 PCE 通胀 3.8%、核心 3.3% 为当日要点，并称科技股承压。属宏观数据与媒体市场综述，非官方结论；数字以官方后续修订为准。",
+          "sources": [
+            {
+              "name": "World Macro News",
+              "url": "https://worldmacronews.com/briefing/2026-11-27",
+              "date": "2026-11-27",
+              "note": "市场简报，媒体口径"
+            }
+          ]
+        },
+        {
+          "title": "【石油&黄金】黄金反弹至约 3650 美元（+2.92%），较 8 月高点仍低约 22%；布伦特报价口径分歧",
+          "summary": "口径与基准：现货/CFD 参考价，非 COMEX 结算价；周末期货休市，报价未必代表实时成交。CNBC 11-27（美东 08:32 更新）称金价自本周触及的一年多低点反弹，受美国假期交投清淡与 AI 市场紧张缓解推动；Livemint 引 Reuters 称黄金有望录得三周来首次周涨、但加息担忧限制涨幅；FXStreet 称金价在 3600 美元附近、较 8 月高点低约 22%。原油报价分歧：Saxo 11-27 早盘称布伦特升破 97 美元，GoldOilPrice 周末页面显示 WTI 83.08（-0.72%）、布伦特 90.84（+0.22%）——两者时点/口径不同，此处不硬统一，精确涨跌幅以交易时段行情为准，标数据缺口。",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/27/gold-metals-silver-markets-federal-reserve.html",
+              "date": "2026-11-27",
+              "note": "标题与导语核实，正文抓取截断"
+            },
+            {
+              "name": "Livemint（转 Reuters）",
+              "url": "https://www.livemint.com/market/gold-pares-gains-as-fed-hike-risks-linger-eyes-first-weekly-rise-in-three-weeks-11795807102935.html",
+              "date": "2026-11-27",
+              "note": "标题级，19:18 UTC"
+            },
+            {
+              "name": "GoldOilPrice",
+              "url": "https://goldoilprice.com/",
+              "date": "2026-11-27",
+              "note": "周末休市快照，现货/CFD 参考价"
+            },
+            {
+              "name": "Saxo Bank",
+              "url": "https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026",
+              "date": "2026-11-27",
+              "note": "标题级，早盘布伦特 97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "美军在阿曼湾再度瘫痪一艘试图突破伊朗港口封锁的商船，霍尔木兹油轮接连遇袭",
+          "summary": "AP 11-27 19:17（CST）与 CBS 11-28 05:12（CST）报道：美军中央司令部称以精确弹药瘫痪了帕劳籍商船 M/V Pacific Archer，指其试图突破对伊朗港口的封锁；此前伊朗革命卫队称霍尔木兹一艘油轮触雷爆炸，另两艘油轮在阿曼以北遇袭。多源交叉，属隔夜重大地缘事件；细节以军方与官方通报为准。",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/saudi-iran-yemen-israel-november-27-2026-dbb2c950f5cd991a52f3a065b6325535",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
+              "date": "2026-11-27",
+              "note": "实时更新，11-27 16:12 EST"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious",
+              "date": "2026-11-27",
+              "note": "实时博客"
+            }
+          ]
+        },
+        {
+          "title": "特朗普新关税框架细节：对华上限 20%（谈崩升至 40%）、覆盖 14 个伙伴，中方称保留反制权",
+          "summary": "Reuters 11-25 原文（11-26 更新）：USTR 以 1974 年贸易法 301 条对 14 个贸易伙伴提出最高 20%-40% 的新税率，中国上限 20%、若贸易休市破裂升至 40%，新税须在 1 月 25 日听证后生效；中国驻美使馆称所谓产能过剩「并不存在」、保留反制权。Al Jazeera 11-27 20:48（CST）分析指此举意在重建被最高法院推翻的关税杠杆、赶在下月迈阿密 G20 前施压。属窗口前背景+隔夜分析，条款以官方文本为准。",
+          "image": "https://ajo.prod.reuters.tv/api/v2/img/6b076ea1e4b0151e818f7132?width=1080&quality=80",
+          "imageCredit": "Reuters 原文配图",
+          "sources": [
+            {
+              "name": "Reuters（原文核实）",
+              "url": "https://www.reuters.com/3fec1b0a85a0/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/",
+              "date": "2026-11-25",
+              "note": "原文核实，窗口前背景，11-26 更新"
+            },
+            {
+              "name": "Al Jazeera（分析）",
+              "url": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan",
+              "date": "2026-11-27",
+              "note": "原文核实，隔夜分析"
+            }
+          ]
+        },
+        {
+          "title": "泽连斯基警告俄军将发动新一轮大规模打击，特朗普敦促普京「后撤」",
+          "summary": "Al Jazeera 引 Reuters 11-27 报道：乌克兰总统泽连斯基称已获情报显示俄罗斯将在未来数日发动新一轮大规模袭击；特朗普敦促普京后撤。属战场态势与外交表态，事态进展以官方通报为准，标单源/时点级。",
+          "sources": [
+            {
+              "name": "Al Jazeera（转 Reuters）",
+              "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back",
+              "date": "2026-11-27",
+              "note": "原文标题级"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-28 09:05 CST，覆盖 11-27 09:00 — 11-28 09:00（重点隔夜欧美）。",
+    "scope": "检索范围：advanced_search（exa，timeRange=day，四主题分批）+ web_fetch 原文核实（PocketGamer.biz / Indie Tooling / gamedevaitools / Lablup / Reuters / Al Jazeera 等）；社区声音本期省略（无人值守预算优先主检索与网站发布）；金融价格来自媒体原文与周末快照，未调用 westockdata 逐项校验。",
+    "gaps": "缺口：①黄金/原油相对昨日收盘的精确涨跌幅原文未给全，布伦特报价 Saxo 97 与 GoldOilPrice 90.84 口径分歧，均未硬统一；②GigaChat 4、Yandex 80B、Zynga Clay Jam、Tripo/Scenario/Higgsfield 更新均为聚合或媒体单源，官方原文未取到，已逐条标注；③【AI×游戏开发】窗口内无当日首发工具，收录本周（11-24~26）厂商更新并标明时点，非当日新闻；④X 直连不可达，本期未补美国社交热议；⑤Reuters 关税与部分地缘稿属窗口前背景，已标注。窗口内无可信更新的子项不编造补位。",
+    "publish": "网站数据文件是主交付；公网主站 https://Jweeeeee.github.io/overseas-game-trend-daily/news/ （overseas-game-trend-daily@gh-pages/news/），兜底源 news-daily-brief@main/data/，本地站 http://192.168.31.66:8765 。"
+  }
+}
