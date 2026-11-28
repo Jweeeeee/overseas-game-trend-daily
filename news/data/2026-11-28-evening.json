@@ -1,5 +1,281 @@
 {
   "id": "2026-11-28-evening",
-  "type": "晚 报",
+  "type": "晚报",
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28 18:08 CST"
+  "generatedAt": "2026-11-28 18:08 CST",
+  "window": "2026-11-28 09:00 - 18:00（周六，A股休市）",
+  "highlights": [
+    "A股周五放量大涨（创业板+11.61%、两市成交近2万亿）后今日周六休市，本期按规则做上一交易日复盘+周一前瞻，国常会稳市信号是主线。",
+    "腾讯关联 Supercell 全资收购《Merge Mansion》开发商 Metacore，休闲赛道并购再落一子；Unity 推出 Spark 用 AI 提示生成游戏。",
+    "AI 开源继续爆发：Sber 708B GigaChat 4 以 MIT 许可开源，Gemini 4 下月起 API 价格翻倍。"
+  ],
+  "sections": [
+    {
+      "id": "games",
+      "icon": "🎮",
+      "title": "专业 · 游戏（欧美休闲手游）",
+      "items": [
+        {
+          "title": "腾讯关联 Supercell 全资收购《Merge Mansion》开发商 Metacore",
+          "summary": "GMT EIGHT 11-28 报道，Supercell 已完成对芬兰休闲游戏开发商 Metacore 的全资收购，加码合成/休闲赛道。媒体转述、单源待核，官方公告口径未见原文。",
+          "sources": [
+            {
+              "name": "GMT EIGHT",
+              "url": "https://gmteight.com/flash/detail/1565732",
+              "date": "2026-11-28",
+              "note": "单源待核"
+            }
+          ]
+        },
+        {
+          "title": "Supercell「Boat Game」撤离射击在五国开启测试",
+          "summary": "GamingOnPhone 11-28 报道，Supercell 一款被称作 Boat Game 的撤离射击手游在五个国家重启测试，玩法偏混乱对抗。原文正文未完整抓取，按标题级收录。",
+          "sources": [
+            {
+              "name": "GamingOnPhone",
+              "url": "https://gamingonphone.com/news/supercells-boat-game-returns-with-a-chaotic-extraction-shooter-test-across-five-countries-on-mobile/",
+              "date": "2026-11-28",
+              "note": "标题级"
+            }
+          ]
+        },
+        {
+          "title": "Zynga 推出定格黏土手游《Clay Jam》",
+          "summary": "True News PSBA Tribune 11-28 报道，Zynga 上线由 Fat Pebble 开发的定格黏土动画风手游 Clay Jam。单源、小众媒体，待官方渠道交叉核实。",
+          "sources": [
+            {
+              "name": "True News PSBA Tribune",
+              "url": "https://news.psba.org/zynga-launches-clay-jam-00316436/",
+              "date": "2026-11-28",
+              "note": "单源待核"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】Unity 推出 Spark：用 AI 提示「生成游戏」更近一步",
+          "summary": "科技资讯 11-28 转述 GamingOnLinux：Unity 在 Unity AI 之后推出 Spark，借助 Asset Store 素材，让开发者用 AI 提示生成游戏。报道称演示效果较基础，非面向资深开发者。属开发环节落地工具，媒体转述待官方页核实。",
+          "sources": [
+            {
+              "name": "科技资讯（转述 GamingOnLinux）",
+              "url": "https://www.kejizixun.org.cn/news/430e499565.html",
+              "date": "2026-11-28",
+              "note": "媒体转述"
+            }
+          ]
+        },
+        {
+          "title": "【AI×游戏开发】Unity/Unreal 资产库向 AI 智能体开放",
+          "summary": "Indie Tooling 11-27 原文：Unity 实验性 Asset Library 支持 AI agent 从素材包中取单件资源，Unreal 5.9 的 Fab 工具集让智能体安装已购资产，许可证规则仍适用。同期 Unsloth 演示本地 LLM 自主操控 Unreal/Unity/Blender 建 3D 场景；对休闲团队意味着素材检索与搭建流程可自动化。",
+          "image": "https://indietooling.com/_astro/unity-unreal-agents-asset-library.DLjj1kfM_1nJpeh.webp",
+          "imageCredit": "Indie Tooling",
+          "sources": [
+            {
+              "name": "Indie Tooling",
+              "url": "https://indietooling.com/posts/unity-unreal-agents-asset-library",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "Unity 官方博客",
+              "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents",
+              "date": "2026-11-23",
+              "note": "官方"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "icon": "🤖",
+      "title": "AI（模型 · 工作流 · 研究 · 监管）",
+      "items": [
+        {
+          "title": "Sber 开源 GigaChat 4：708B MoE、MIT 许可、百万 token 上下文",
+          "summary": "DeAI 11-28 原文：Sber 在 Hugging Face 放出 GigaChat 4，7080亿总参/410亿激活，旗舰权重用 MIT 许可（无营收条款），自报 SWE-bench Verified 80.89。FP8 服务配方需两台节点 16 张 H100，多数开发者会通过 GGUF 量化接触。benchmark 为厂商自报。",
+          "sources": [
+            {
+              "name": "DeAI Daily Brief",
+              "url": "https://www.deai.org/news/daily-brief-2026-11-28",
+              "date": "2026-11-28",
+              "note": "原文核实"
+            },
+            {
+              "name": "Hugging Face 模型卡",
+              "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+              "date": "2026-11-28",
+              "note": "一手模型卡"
+            }
+          ]
+        },
+        {
+          "title": "Moonshot 确认 K2 系列 API 年底退役，迁移至 Kimi K3.1 Pro",
+          "summary": "DeAI 11-28 引 Moonshot 平台文档：K2 系列 API 10-31 已停止新用户接入，12 月底全部下线，K2.7 Code 退市前 $0.95/百万输入、$4 输出。K2.5 修改版 MIT 权重仍可下载，团队可自托管过渡。",
+          "sources": [
+            {
+              "name": "DeAI Daily Brief",
+              "url": "https://www.deai.org/news/daily-brief-2026-11-28",
+              "date": "2026-11-28",
+              "note": "原文核实"
+            },
+            {
+              "name": "Moonshot 平台文档",
+              "url": "https://platform.kimi.ai/docs/pricing/chat",
+              "date": "2026-11-28",
+              "note": "官方一手"
+            }
+          ]
+        },
+        {
+          "title": "蚂蚁发布 LingSante-3.1-flash：560B MoE 开源医疗大模型",
+          "summary": "MarkTechPost 11-28 报道，蚂蚁发布开放权重 MoE 模型 LingSante-3.1-flash，5600亿总参/每 token 激活250亿，面向医疗 AI。原文页被 Cloudflare 拦截，按标题级收录，参数与定位待官方模型卡核实。",
+          "sources": [
+            {
+              "name": "MarkTechPost",
+              "url": "https://www.marktechpost.com/2026/11/28/ant-group-lingsante-3-1-flash-open-source-medical-ai/",
+              "date": "2026-11-28",
+              "note": "Cloudflare 拦截，标题级"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "icon": "💹",
+      "title": "财经大事件（轻量）",
+      "items": [
+        {
+          "title": "【AI&科技线】被禁的英伟达 Blackwell 芯片现身上海数据中心",
+          "summary": "The Decoder 11-27 引彭博调查：两家中国公司在与 Alice Huang 关联的上海数据中心安装 Blackwell GB300-NVL72/GB200，通过序列号追溯到台湾技嘉；相关出口未经美国许可属被禁行为。意味着出口管制从政策走向供应链逐序列审计，第三国采购 GPU 的合规文书将增加。",
+          "sources": [
+            {
+              "name": "The Decoder（引 Bloomberg）",
+              "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            }
+          ]
+        },
+        {
+          "title": "【AI&科技线】Gemini 4 Argon/Carbon 12 月 1 日起 API 价格翻倍",
+          "summary": "DeAI 11-28 引 Google 官方文档：Gemini 4 Argon 输入价 11-30 前 $2/百万 token、12-01 起 $4，输出 $10→$20；缓存价格据报同步翻倍。把工作负载钉在 Gemini 4 端点的团队，周一 unit economics 将改变。第三方称 gemini-2.5-pro 请求被改道到按新价计费的替代模型，该说法未获 Google 源证实。",
+          "sources": [
+            {
+              "name": "DeAI Daily Brief",
+              "url": "https://www.deai.org/news/daily-brief-2026-11-28",
+              "date": "2026-11-28",
+              "note": "原文核实"
+            },
+            {
+              "name": "Google AI Studio 文档",
+              "url": "https://aistudio.google.com/docs/whats-new-gemini-4-argon",
+              "date": "2026-11-28",
+              "note": "官方一手"
+            }
+          ]
+        },
+        {
+          "title": "【石油&黄金】黄金周涨 4.4% 收 3668.50 美元、布伦特周跌 1.9% 收 90.84 美元",
+          "summary": "ShareTrader 周报（截至 11-29 当周、11-28 发布）：黄金现货收 3668.50 美元/盎司，较上周收盘 3515.40 涨 4.4%（+153.10）；白银 43.702 涨 6.5%；布伦特收 90.84 美元/桶，较上周 92.57 跌 1.9%，WTI 83.08 跌 1.1%，为 11 月连续第四个周五收跌。对比基准=上周收盘（11-22），口径为现货/期货收盘价；10 月 PCE 同比 3.8%、核心 3.3%。",
+          "image": "https://www.sharetrader.com.au/_next/image?url=%2Fnews%2Fimages%2F2026-11-28-a-fourth-week-of-cheaper-oil-under-the-iran-blockade-the-week-in-commodities%2Ftanker-16x9.webp&w=3840&q=75",
+          "imageCredit": "ShareTrader",
+          "sources": [
+            {
+              "name": "ShareTrader 周报",
+              "url": "https://sharetrader.com.au/news/2026-11-28-a-fourth-week-of-cheaper-oil-under-the-iran-blockade-the-week-in-commodities",
+              "date": "2026-11-28",
+              "note": "原文核实，周收盘口径"
+            }
+          ]
+        },
+        {
+          "title": "【A股行情】周六休市：周五放量大涨复盘 + 周一前瞻",
+          "summary": "今日周六休市。上一交易日（11-27 周五）复盘：沪指 +3.73% 报 3606.49 点、深成指 +7.24% 报 10814 点、创业板指 +11.61% 报 2443 点、科创50 +15.07%；两市成交 19997.94 亿元、放量 6824 亿，超 5300 只个股上涨、超 400 只涨停，芯片产业链爆发；主力净流入融资融券 +917 亿、芯片概念 +635 亿、华为概念 +417 亿，高股息红利股逆势回落。下一交易日（11-30 周一）前瞻：国常会一个月两提稳市、首提「国家队」并把优化平准基金功能写入，科技主线情绪高涨，但单日涨幅与量能极端，注意高位波动与获利回吐。结构化行情接口 westock 本期不可用，点位与资金为媒体报道口径，非交易所原始值。",
+          "image": "https://nbd-luyan-1252627319.file.myqcloud.com/nbd_thirdparty_post/QdNsSeiC1H%E6%88%AA%E5%B1%8F2026-11-27%2016.41.08.png",
+          "imageCredit": "每日经济新闻",
+          "sources": [
+            {
+              "name": "每日经济新闻·收评",
+              "url": "https://www.nbd.com.cn/articles/2026-11-27/4661224.html",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "金十数据·成交额",
+              "url": "https://flash.jin10.com/detail/20261127150127930800",
+              "date": "2026-11-27",
+              "note": "原文核实"
+            },
+            {
+              "name": "24TopNews·收盘点位",
+              "url": "https://24topnews.com/news/market",
+              "date": "2026-11-27",
+              "note": "点位口径"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "title": "时政与全球大事",
+      "items": [
+        {
+          "title": "美军在阿曼湾瘫痪突破对伊封锁的商船，霍尔木兹局势升级",
+          "summary": "Anadolu 11-28 晨报：美军中央司令部称在阿曼湾瘫痪帕劳籍散货船 M/V Pacific Archer，船员试图突破对伊朗港口的海上封锁，平民船员无恙。半岛电视台直播称伊朗武装进入「绝对戒备」、意大利指科威特致命袭击的无人机为伊朗制造。封锁从拦截升级为直接使用武力。",
+          "sources": [
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-28-2026/4141123",
+              "date": "2026-11-28",
+              "note": "原文核实"
+            },
+            {
+              "name": "Al Jazeera 直播",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran",
+              "date": "2026-11-28",
+              "note": "直播更新"
+            }
+          ]
+        },
+        {
+          "title": "美众院共和党反对白宫 Section 301 关税方案，参院拟恢复国会贸易权",
+          "summary": "East Asia Brief 11-28 原文（confidence high）：共和党议员推动收回国会贸易权，挑战 USTR 11-25 提出的对 14 个制造伙伴国加征关税（韩国最高 15%、中国 20-40%，覆盖美国商品进口约 22%）。参院财委拟在新会期重启《国会贸易权改革法》，要求新关税 60 天内经国会表决否则自动失效；但任何限制行政权的法案料遭总统否决。USTR 听证会定于 2027-01-25。",
+          "sources": [
+            {
+              "name": "East Asia Brief",
+              "url": "https://eastasiabrief.com/trade-policy/house-republicans-counter-white-house-plan-section-301-tariffs-1839",
+              "date": "2026-11-28",
+              "note": "原文核实，confidence high"
+            },
+            {
+              "name": "AP",
+              "url": "https://apnews.com/article/trump-tariffs-republicans-congress-a438d0649e3b905804eafb63e9803bb3",
+              "date": "2026-11-27",
+              "note": "Cloudflare 拦截，仅摘要"
+            }
+          ]
+        },
+        {
+          "title": "乌克兰称用 Blysk 激光系统击落俄无人机",
+          "summary": "The Independent 11-28 直播报道，基称其 Blysk 激光系统成功拦截一架 Geran 无人机，泽连斯基此前对特朗普的乌克兰政策表达不满。原文为直播更新，细节以标题级收录。",
+          "sources": [
+            {
+              "name": "The Independent",
+              "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+              "date": "2026-11-28",
+              "note": "直播/标题级"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "time": "生成于 2026-11-28 18:08 CST；覆盖窗口 09:00-18:00（周六）",
+    "scope": "检索范围：web_search/advanced_search(exa, timeRange=day) 四主题分批 + web_fetch 原文核实；本轮未用 research（避免 'verified' 触发词典垃圾）；x_search 直连不可达本期未用；社区声音（last30days）预算内省略。",
+    "gaps": "证据缺口：westock CLI 安装被 SHA256 清单校验拒绝（疑似发布源被篡改），A股结构化数据降级为媒体报道文字口径、非交易所原始值；AP/MarkTechPost/appgamer 正文被 Cloudflare 拦截仅标题级；Supercell 收购 Metacore、Zynga Clay Jam、Unity Spark、蚂蚁 LingSante 均为单源或媒体转述待核；【AI×游戏开发】当期无官方一手发布页，收录媒体转述并标注时点；金价/油价为周收盘口径（对比上周 11-22），非当日实时。空白主题无——四主题均有可信落点。"
+  }
+}

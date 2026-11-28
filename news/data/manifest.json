@@ -1,8 +1,15 @@
 {
   "title": "新闻日报",
   "subtitle": "游戏 · AI · 财经 · 时政与全球大事",
-  "updatedAt": "2026-11-28 09:05 CST",
+  "updatedAt": "2026-11-28 18:05 CST",
   "issues": [
+    {
+      "id": "2026-11-28-evening",
+      "type": "晚报",
+      "date": "2026-11-28",
+      "file": "2026-11-28-evening.json",
+      "generatedAt": "2026-11-28 18:08 CST"
+    },
     {
       "id": "2026-11-28-morning",
       "type": "早报",
